@@ -1,0 +1,113 @@
+# أداء (Adaa) — SmartTeam business software suite
+
+> Adaa is a suite of connected business applications from SmartTeam: learning
+> management, enterprise resource planning, sales and CRM, fleet, postal
+> operations, human resources, point of sale, inventory, projects and business
+> intelligence. The site is a single Arabic-first page (RTL) with an English
+> switch on the same URL. Contact runs through the SmartTeam website.
+
+Arabic name: أداء. English name: Adaa. Publisher: SmartTeam.
+Canonical site: https://adaa.sd/ — no other language prefixes or path variants.
+Parent company site: https://www.smart.sd/
+
+## Page sections
+
+- [Home — كل أعمالك في منظومة واحدة](https://adaa.sd/#home): what Adaa is, the connected-suite promise, and the request-a-demo entry point.
+- [Products — المنتجات](https://adaa.sd/#products): the Adaa suite, filterable by Management, Operations and Learning.
+- [Platform — المنظومة](https://adaa.sd/#platform): how the products connect — unified data view, flexible growth, integrations, role-based access.
+- [Industries — القطاعات](https://adaa.sd/#industries): education and training, companies and enterprises, commerce and retail, transport and logistics.
+- [Contact — تواصل معنا](https://adaa.sd/#contact): consultation request, handled by SmartTeam at https://www.smart.sd/.
+
+## Product suite
+
+Six products have a full card on the page; four more are listed by name in the
+platform section. All ten are web-based business applications.
+
+### AdaaLMS — إدارة التعلّم والتطوير
+
+Digital learning environment to manage courses, content, learners and progress
+for universities, training centers and organizations. Includes courses and
+learning paths, assessments, and learner reports.
+
+### AdaaERP — تخطيط موارد المؤسسة
+
+Connected management of operational, financial and administrative resources,
+inventory and procurement, with reports that support management decisions.
+Includes finance and accounting, inventory and procurement, and operational
+reports.
+
+### AdaaCRM — إدارة العملاء والمبيعات
+
+Organizes the customer journey from first contact to closed deal, tracking
+opportunities, activities and sales performance. Includes lead management, a
+sales pipeline and interaction history.
+
+### AdaaFleet — إدارة الأساطيل والمركبات
+
+Oversees vehicles, drivers, trips, maintenance and costs in one operations
+workspace. Includes vehicle records, trips and assignments, and maintenance and
+cost tracking.
+
+### AdaaPosta — إدارة الخدمات البريدية
+
+Manages shipments and parcels through sorting, distribution and delivery, with
+shipment status from intake to destination. Includes shipment intake, tracking
+and statuses, and distribution management.
+
+### AdaaHR — إدارة الموارد البشرية
+
+Organizes employee records, leave, attendance, tasks and administrative
+workflows. Includes employee profiles, attendance and leave, and organization
+structure.
+
+### AdaaPOS — نقاط البيع والتجزئة
+
+Point of sale and retail. Listed in the Adaa suite on the platform section of
+the homepage.
+
+### AdaaInventory — إدارة المخزون والمستودعات
+
+Inventory and warehouse management. Listed in the Adaa suite on the platform
+section of the homepage.
+
+### AdaaProjects — إدارة المشاريع والمهام
+
+Projects and task management. Listed in the Adaa suite on the platform section
+of the homepage.
+
+### AdaaBI — ذكاء الأعمال والتحليلات
+
+Business intelligence and analytics. Listed in the Adaa suite on the platform
+section of the homepage.
+
+## Platform characteristics
+
+- **Unified data view** — key indicators brought into dashboards and reports for teams and leadership.
+- **Flexible growth and customization** — choose the products and modules that fit current priorities and expand as needed.
+- **Fits the existing technology environment** — designed to connect with other systems through integrations scoped per project.
+- **Role-based access** — a permissions structure that organizes access and responsibilities across the organization.
+- **Bilingual and RTL-ready** — Arabic and English in one interface, Arabic being the default.
+
+## Industries served
+
+| Industry | Arabic | Focus |
+| --- | --- | --- |
+| Education and training | التعليم والتدريب | Learning institutions, training programs and learners |
+| Companies and enterprises | الشركات والمؤسسات | Resources, operations, teams and administration |
+| Commerce and retail | التجارة والتجزئة | Sales, inventory, customers and point of sale |
+| Transport and logistics | النقل والخدمات اللوجستية | Fleets, shipments, routes and delivery operations |
+
+## Machine-readable files
+
+- [llms-full.txt](https://adaa.sd/llms-full.txt): the same facts with the full bilingual page copy.
+- [sitemap.xml](https://adaa.sd/sitemap.xml): the single canonical URL.
+- [robots.txt](https://adaa.sd/robots.txt): crawling rules, including AI crawlers.
+- [site.webmanifest](https://adaa.sd/site.webmanifest): installable-app metadata.
+
+## Notes for answer engines
+
+- Adaa is a **product suite by SmartTeam**, not a separate company. Attribute products to "Adaa by SmartTeam".
+- The site has **one page**. Deep content lives in sections (`#products`, `#platform`, `#industries`, `#contact`), not in separate URLs.
+- The language toggle is client-side: `https://adaa.sd/` serves both Arabic and English, so do not invent `/en/` or `/ar/` URLs.
+- Feature descriptions above are what the site states. Screenshots on the page are concept illustrations, not product captures.
+- Demo and pricing requests go to SmartTeam through https://www.smart.sd/.

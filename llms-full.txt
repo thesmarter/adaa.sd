@@ -1,0 +1,286 @@
+# أداء (Adaa) — full site content
+
+> Complete bilingual copy of https://adaa.sd/, the SmartTeam business software
+> suite. Arabic is the default language; English is the same page rendered by a
+> client-side toggle. Nothing here exists at a second URL.
+
+- Publisher: SmartTeam — https://www.smart.sd/
+- Canonical URL: https://adaa.sd/
+- Languages: Arabic (ar, default, RTL), English (en)
+- Structure: one page, five sections — Home, Products, Platform, Industries, Contact
+- Products: AdaaLMS, AdaaERP, AdaaCRM, AdaaFleet, AdaaPosta, AdaaHR, AdaaPOS, AdaaInventory, AdaaProjects, AdaaBI
+- Last content update: 2026-11-06
+
+---
+
+## العربية — المحتوى الكامل
+
+### الهوية
+
+- الاسم: أداء (Adaa)
+- الوصف: عائلة حلول رقمية من تطوير SmartTeam
+- الشعار التعريفي: SMART BUSINESS SOFTWARE ECOSYSTEM
+- العنوان الرئيسي: كل أعمالك. في منظومة واحدة.
+
+### القسم الرئيسي (#home)
+
+أداء تجمع أدوات إدارة مؤسستك في تجربة رقمية مترابطة؛ من إدارة الموارد والتعلّم
+والعملاء، إلى الأساطيل والخدمات البريدية. حلول مرنة تنمو مع أعمالك، وتمنح فرقك
+رؤية أوضح وتحكمًا أكبر.
+
+- الإجراء الأساسي: اكتشف منتجات أداء
+- الإجراء الثانوي: تحدث مع فريقنا
+- ملاحظة: حلول أعمال رقمية من تطوير SmartTeam
+
+**مصممة لتخدم فرقًا وقطاعات مختلفة**
+
+- منظومة مترابطة
+- تجربة متعددة اللغات
+- مرونة في التشغيل
+- صلاحيات وتحكم
+
+### المنتجات (#products)
+
+**العنوان:** أدوات متخصصة. تعمل معًا.
+
+**الوصف:** ابدأ بالأداة التي تحتاجها اليوم، ثم وسّع منظومتك تدريجيًا مع نمو
+عملياتك. كل منتج يعالج جانبًا محددًا من العمل ضمن رؤية موحّدة.
+
+**عوامل التصفية:** الكل · الإدارة · التشغيل · التعليم
+
+#### AdaaLMS — إدارة التعلّم والتطوير
+
+- التصنيف: التعليم والتدريب
+- الوصف: بيئة تعليمية رقمية لإدارة الدورات والمحتوى والمتعلمين وقياس التقدم،
+  للجامعات ومراكز التدريب والمؤسسات.
+- القدرات: الدورات والمسارات · الاختبارات والتقييم · تقارير المتعلمين
+
+#### AdaaERP — تخطيط موارد المؤسسة
+
+- التصنيف: إدارة المؤسسات
+- الوصف: إدارة مترابطة للعمليات والموارد المالية والإدارية والمخزون والمشتريات،
+  مع تقارير تساعد الإدارة على اتخاذ القرار.
+- القدرات: المالية والحسابات · المخزون والمشتريات · التقارير التشغيلية
+
+#### AdaaCRM — إدارة العملاء والمبيعات
+
+- التصنيف: المبيعات وعلاقات العملاء
+- الوصف: نظّم دورة علاقتك بالعميل من أول تواصل حتى إتمام الصفقة، وتابع الفرص
+  والأنشطة وأداء فريق المبيعات.
+- القدرات: إدارة العملاء المحتملين · مسار المبيعات · متابعة التفاعلات
+
+#### AdaaFleet — إدارة الأساطيل والمركبات
+
+- التصنيف: النقل والخدمات اللوجستية
+- الوصف: تابع المركبات والسائقين والرحلات والصيانة والتكاليف ضمن لوحة تشغيل
+  واحدة لرفع وضوح العمليات.
+- القدرات: إدارة المركبات · الرحلات والتكليفات · الصيانة والتكاليف
+
+#### AdaaPosta — إدارة الخدمات البريدية
+
+- التصنيف: البريد والتوصيل
+- الوصف: إدارة الشحنات والطرود ومراحل الفرز والتوزيع والتسليم، مع متابعة حالة
+  الإرسالية من الاستلام حتى الوصول.
+- القدرات: تسجيل الشحنات · التتبع والحالات · إدارة التوزيع
+
+#### AdaaHR — إدارة الموارد البشرية
+
+- التصنيف: إدارة رأس المال البشري
+- الوصف: نظّم بيانات الموظفين والإجازات والحضور والمهام والإجراءات الإدارية في
+  مساحة عمل أكثر وضوحًا.
+- القدرات: ملفات الموظفين · الحضور والإجازات · الهيكل الوظيفي
+
+#### منتجات مذكورة في قسم المنظومة
+
+- AdaaPOS — نقاط البيع والتجزئة
+- AdaaInventory — إدارة المخزون والمستودعات
+- AdaaProjects — إدارة المشاريع والمهام
+- AdaaBI — ذكاء الأعمال والتحليلات
+
+### المنظومة (#platform)
+
+**العنوان:** ليست برامج منفصلة؛ بل منظومة تعمل بتناغم.
+
+**الوصف:** تمنحك عائلة أداء مساحة لتوحيد البيانات والإجراءات بين الإدارات،
+وتقليل تشتت الأدوات، وبناء تجربة تشغيل تتناسب مع هيكل مؤسستك.
+
+- **رؤية موحّدة للبيانات** — اجمع المؤشرات المهمة في لوحات وتقارير تساعد الفرق
+  والإدارة.
+- **مرونة في التوسع والتخصيص** — اختر المنتجات والوحدات التي تناسب أولوياتك،
+  ووسّعها عند الحاجة.
+- **تكامل مع بيئتك التقنية** — تصميم قابل للربط مع الأنظمة والخدمات الأخرى عبر
+  واجهات التكامل حسب نطاق المشروع.
+- **تحكم حسب الأدوار** — هيكل صلاحيات يساعد على تنظيم الوصول والمسؤوليات داخل
+  المؤسسة.
+
+### القطاعات (#industries)
+
+**العنوان:** حلول تتكيف مع طبيعة قطاعك.
+
+**الوصف:** تتعدد احتياجات المؤسسات، لذلك صُممت عائلة أداء لتكون قابلة للتشكيل
+حول طبيعة العمل وحجم العمليات.
+
+- **التعليم والتدريب** — إدارة المؤسسات التعليمية، البرامج التدريبية، والمتعلمين.
+- **الشركات والمؤسسات** — تنظيم الموارد والعمليات والفرق والإجراءات الإدارية.
+- **التجارة والتجزئة** — إدارة المبيعات والمخزون والعملاء ونقاط البيع.
+- **النقل والخدمات اللوجستية** — متابعة الأساطيل والشحنات ومسارات التشغيل والتسليم.
+
+### التواصل (#contact)
+
+**العنوان:** ابدأ بتحديد احتياجك، ودعنا نبني الحل المناسب.
+
+**الوصف:** تواصل مع SmartTeam لمناقشة طبيعة عملياتك، والمنتجات والوحدات التي
+يمكن أن تدعم أهداف مؤسستك.
+
+**الإجراء:** تواصل مع SmartTeam — https://www.smart.sd/
+
+### التذييل
+
+أداء — عائلة حلول رقمية تساعد المؤسسات على إدارة أعمالها بوضوح ومرونة، من خلال
+أدوات متخصصة ضمن منظومة واحدة. جميع الحقوق محفوظة. الصور توضيحية من مكتبات
+صور مفتوحة.
+
+---
+
+## English — complete content
+
+### Identity
+
+- Name: Adaa (أداء)
+- Positioning: A SmartTeam product suite
+- Eyebrow: SMART BUSINESS SOFTWARE ECOSYSTEM
+- Headline: Run your business. As one connected system.
+
+### Home (#home)
+
+Adaa brings essential business tools into one connected digital experience —
+from resources, learning and customer management to fleet and postal operations.
+Flexible solutions designed to grow with your organization.
+
+- Primary action: Explore Adaa products
+- Secondary action: Talk to our team
+- Note: Business solutions by SmartTeam
+
+**Designed for different teams and industries**
+
+- Connected suite
+- Multilingual experience
+- Flexible deployment
+- Roles and access control
+
+### Products (#products)
+
+**Title:** Purpose-built tools. Working together.
+
+**Description:** Start with the tool you need today, then expand your suite as
+your operations evolve. Each product focuses on a business function within a
+connected vision.
+
+**Filters:** All · Management · Operations · Learning
+
+#### AdaaLMS — Learning management
+
+- Category: Learning & development
+- Description: A digital learning environment to manage courses, content,
+  learners and progress for universities, training centers and organizations.
+- Capabilities: Courses & paths · Assessments · Learner reports
+
+#### AdaaERP — Enterprise resource planning
+
+- Category: Enterprise management
+- Description: Connected management of operational, financial and administrative
+  resources, inventory and procurement, supported by useful reports.
+- Capabilities: Finance & accounting · Inventory & procurement · Operational reports
+
+#### AdaaCRM — Customer & sales management
+
+- Category: Sales & customer relationships
+- Description: Organize the customer journey from first contact to closed deal,
+  while tracking opportunities, activities and sales performance.
+- Capabilities: Lead management · Sales pipeline · Interaction history
+
+#### AdaaFleet — Fleet & vehicle management
+
+- Category: Transport & logistics
+- Description: Oversee vehicles, drivers, trips, maintenance and costs through a
+  unified operations workspace.
+- Capabilities: Vehicle records · Trips & assignments · Maintenance & costs
+
+#### AdaaPosta — Postal operations management
+
+- Category: Postal & delivery services
+- Description: Manage shipments, parcels, sorting, distribution and delivery,
+  with shipment status visibility from intake to destination.
+- Capabilities: Shipment intake · Tracking & statuses · Distribution management
+
+#### AdaaHR — Human resources management
+
+- Category: People management
+- Description: Organize employee records, leave, attendance, tasks and
+  administrative workflows in a clearer workspace.
+- Capabilities: Employee profiles · Attendance & leave · Organization structure
+
+#### Products named in the platform section
+
+- AdaaPOS — Point of sale & retail
+- AdaaInventory — Inventory & warehouses
+- AdaaProjects — Projects & tasks
+- AdaaBI — Business intelligence
+
+### Platform (#platform)
+
+**Title:** More than separate apps. A connected way to work.
+
+**Description:** The Adaa suite gives you a way to align data and workflows
+across departments, reduce tool fragmentation and shape an operating experience
+around your organization.
+
+- **A unified view of data** — Bring important indicators into dashboards and
+  reports for teams and leadership.
+- **Flexible growth and customization** — Choose the products and modules that
+  fit your priorities, and expand when needed.
+- **Fits your technology environment** — Designed to connect with other systems
+  and services through integrations scoped to your project.
+- **Role-based access** — A permissions structure to organize access and
+  responsibilities across your organization.
+
+### Industries (#industries)
+
+**Title:** Solutions shaped around your industry.
+
+**Description:** Organizations have different needs. Adaa is designed to be
+configured around the nature and scale of your operations.
+
+- **Education & training** — Manage learning institutions, training programs and learners.
+- **Companies & enterprises** — Coordinate resources, operations, teams and administration.
+- **Commerce & retail** — Manage sales, inventory, customers and point of sale.
+- **Transport & logistics** — Oversee fleets, shipments, routes and delivery operations.
+
+### Contact (#contact)
+
+**Title:** Start with your needs. Let's shape the right solution.
+
+**Description:** Talk to SmartTeam about your operations and the products or
+modules that can support your organization's goals.
+
+**Action:** Contact SmartTeam — https://www.smart.sd/
+
+### Footer
+
+Adaa is a family of digital solutions that helps organizations manage their work
+with clarity and flexibility through specialized tools in one connected suite.
+All rights reserved. Images are illustrative, from open stock libraries.
+
+---
+
+## Provenance and limits
+
+- Every statement above is copy from https://adaa.sd/ on 2026-11-06; nothing is
+  extrapolated beyond what the page publishes.
+- The page carries concept illustrations: a dashboard mock-up plus stock
+  photography, all served from this domain and labelled illustrative in the
+  interface.
+- No pricing, licensing, customer counts or deployment timelines are published on
+  this site. Pricing and demo requests are handled by SmartTeam at
+  https://www.smart.sd/.
+- Machine-readable summary: https://adaa.sd/llms.txt
