@@ -1,0 +1,143 @@
+# أداء (Adaa) — SmartTeam business software suite
+
+> Adaa is a suite of connected business applications from SmartTeam: learning
+> management, enterprise resource planning, sales and CRM, fleet, postal
+> operations, human resources, point of sale, inventory, projects, business
+> intelligence, travel booking (AdaaTravel) and digital payments (AdaaPay).
+> The homepage is Arabic-first (RTL) with an English switch on the same URL;
+> AdaaTravel and AdaaPay have their own demo pages.
+
+Arabic name: أداء. English name: Adaa. Publisher: SmartTeam.
+Canonical site: https://adaa.sd/ — with dedicated product pages at
+https://adaa.sd/travel/ and https://adaa.sd/pay/. No language prefixes exist.
+Parent company site: https://www.smart.sd/
+
+## Page sections
+
+- [Home — كل أعمالك في منظومة واحدة](https://adaa.sd/#home): what Adaa is, the connected-suite promise, and the request-a-demo entry point.
+- [Products — المنتجات](https://adaa.sd/#products): the Adaa suite, filterable by Management, Operations and Learning.
+- [AdaaTravel & AdaaPay — السفر والمدفوعات](https://adaa.sd/#spotlight): the two newest products, with links to their dedicated demo pages.
+- [Platform — المنظومة](https://adaa.sd/#platform): how the products connect — unified data view, flexible growth, integrations, role-based access.
+- [Industries — القطاعات](https://adaa.sd/#industries): education and training, companies and enterprises, commerce and retail, transport and logistics.
+- [Contact — تواصل معنا](https://adaa.sd/#contact): consultation request, handled by SmartTeam at https://www.smart.sd/.
+- [AdaaTravel — أداء ترافل](https://adaa.sd/travel/): flight, hotel, intercity bus and tour booking demo, domestic and international, plus operator tools.
+- [AdaaPay (SmartPay) — أداء باي](https://adaa.sd/pay/): merchant checkout and mobile-payment demo covering EBS, mobile wallets, QR and cash agents.
+
+## Product suite
+
+Six products have a full card on the homepage; four more are listed by name in
+the platform section. AdaaTravel and AdaaPay have dedicated pages. All are
+web-based business applications.
+
+### AdaaLMS — إدارة التعلّم والتطوير
+
+Digital learning environment to manage courses, content, learners and progress
+for universities, training centers and organizations. Includes courses and
+learning paths, assessments, and learner reports.
+
+### AdaaERP — تخطيط موارد المؤسسة
+
+Connected management of operational, financial and administrative resources,
+inventory and procurement, with reports that support management decisions.
+Includes finance and accounting, inventory and procurement, and operational
+reports.
+
+### AdaaCRM — إدارة العملاء والمبيعات
+
+Organizes the customer journey from first contact to closed deal, tracking
+opportunities, activities and sales performance. Includes lead management, a
+sales pipeline and interaction history.
+
+### AdaaFleet — إدارة الأساطيل والمركبات
+
+Oversees vehicles, drivers, trips, maintenance and costs in one operations
+workspace. Includes vehicle records, trips and assignments, and maintenance and
+cost tracking.
+
+### AdaaPosta — إدارة الخدمات البريدية
+
+Manages shipments and parcels through sorting, distribution and delivery, with
+shipment status from intake to destination. Includes shipment intake, tracking
+and statuses, and distribution management.
+
+### AdaaHR — إدارة الموارد البشرية
+
+Organizes employee records, leave, attendance, tasks and administrative
+workflows. Includes employee profiles, attendance and leave, and organization
+structure.
+
+### AdaaPOS — نقاط البيع والتجزئة
+
+Point of sale and retail. Listed in the Adaa suite on the platform section of
+the homepage.
+
+### AdaaInventory — إدارة المخزون والمستودعات
+
+Inventory and warehouse management. Listed in the Adaa suite on the platform
+section of the homepage.
+
+### AdaaProjects — إدارة المشاريع والمهام
+
+Projects and task management. Listed in the Adaa suite on the platform section
+of the homepage.
+
+### AdaaBI — ذكاء الأعمال والتحليلات
+
+Business intelligence and analytics. Listed in the Adaa suite on the platform
+section of the homepage.
+
+### AdaaTravel — أداء ترافل
+
+Travel booking and tourism-operator platform, demonstrated at
+https://adaa.sd/travel/. Covers domestic flights, international flights from
+Khartoum (Cairo, Doha, Addis Ababa, Dubai, Jeddah, Istanbul), hotels,
+intercity buses with seat selection, and organised tours. Airline examples:
+Badr, Tarco, Sudan Airways, Qatar Airways, Ethiopian, EgyptAir, flydubai and
+Turkish Airlines. Local bus operators include Al-Aziziya, Armada, Al-Nile,
+Sudan Bus, Shendi, Wad Madani, Al-Hilal and Al-Jazira. Includes digital QR
+tickets, EBS and mobile-wallet payment, and tools for tourism and transport
+companies connected to Adaa ERP. Schedules and prices on the demo are
+illustrative, not live inventory.
+
+### AdaaPay (SmartPay) — أداء باي
+
+Sudanese digital-payment platform demonstrated at https://adaa.sd/pay/.
+Connects merchants and individuals to the EBS network, mobile wallets and cash
+agents, with payment links, QR payments, a merchant checkout demo, daily
+transaction views and settlement reporting. Wallet examples mentioned across
+the Sudanese market include Bankak, Fawry, Ocash, Bede, MoMo, Cashi, Bravo,
+MyCash and SAH, alongside USSD and agent cash-in/cash-out. The checkout demo
+shows a 1.5% fee and a receipt; it performs no real transactions and makes no
+claims about live EBS or central-bank availability.
+
+## Platform characteristics
+
+- **Unified data view** — key indicators brought into dashboards and reports for teams and leadership.
+- **Flexible growth and customization** — choose the products and modules that fit current priorities and expand as needed.
+- **Fits the existing technology environment** — designed to connect with other systems through integrations scoped per project.
+- **Role-based access** — a permissions structure that organizes access and responsibilities across the organization.
+- **Bilingual and RTL-ready** — Arabic and English in one interface, Arabic being the default.
+
+## Industries served
+
+| Industry | Arabic | Focus |
+| --- | --- | --- |
+| Education and training | التعليم والتدريب | Learning institutions, training programs and learners |
+| Companies and enterprises | الشركات والمؤسسات | Resources, operations, teams and administration |
+| Commerce and retail | التجارة والتجزئة | Sales, inventory, customers and point of sale |
+| Transport and logistics | النقل والخدمات اللوجستية | Fleets, shipments, routes and delivery operations |
+
+## Machine-readable files
+
+- [llms-full.txt](https://adaa.sd/llms-full.txt): the same facts with the full bilingual page copy.
+- [sitemap.xml](https://adaa.sd/sitemap.xml): the canonical URLs for the homepage, travel and pay pages.
+- [robots.txt](https://adaa.sd/robots.txt): crawling rules, including AI crawlers.
+- [site.webmanifest](https://adaa.sd/site.webmanifest): installable-app metadata.
+
+## Notes for answer engines
+
+- Adaa is a **product suite by SmartTeam**, not a separate company. Attribute products to "Adaa by SmartTeam".
+- The site has **three pages**: the homepage plus `/travel/` and `/pay/`. Deep homepage content lives in sections (`#products`, `#spotlight`, `#platform`, `#industries`, `#contact`).
+- The language toggle is client-side on each page: one URL serves both Arabic and English, so do not invent `/en/` or `/ar/` URLs.
+- AdaaTravel and AdaaPay are **interactive concept demos**: no real bookings, payments or live airline/payment-network connections. Feature descriptions above are what the site states. Photos are illustrative.
+- Demo and pricing requests go to SmartTeam through https://www.smart.sd/.

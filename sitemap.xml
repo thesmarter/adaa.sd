@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Three indexable pages share one client-side language toggle each, so each
+       page has a single URL with hreflang alternates pointing to itself. -->
+  <url>
+    <loc>https://adaa.sd/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adaa.sd/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://adaa.sd/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://adaa.sd/" />
+    <image:image>
+      <image:loc>https://adaa.sd/og-image.png</image:loc>
+      <image:title>أداء — منظومة أعمالك الرقمية من SmartTeam</image:title>
+      <image:caption>Adaa — SmartTeam business software suite</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adaa.sd/travel/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adaa.sd/travel/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://adaa.sd/travel/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://adaa.sd/travel/" />
+    <image:image>
+      <image:loc>https://adaa.sd/images/travel/og-travel.jpg</image:loc>
+      <image:title>أداء ترافل — رحلات داخلية وخارجية وفنادق وباصات</image:title>
+      <image:caption>AdaaTravel — domestic and international flights, hotels and buses</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adaa.sd/pay/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://adaa.sd/pay/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://adaa.sd/pay/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://adaa.sd/pay/" />
+    <image:image>
+      <image:loc>https://adaa.sd/images/pay/og-pay.jpg</image:loc>
+      <image:title>أداء باي (SmartPay) — مدفوعات رقمية للسودان</image:title>
+      <image:caption>AdaaPay (SmartPay) — EBS and mobile wallet payments for Sudan</image:caption>
+    </image:image>
+  </url>
+</urlset>

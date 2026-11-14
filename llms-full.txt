@@ -1,0 +1,391 @@
+# أداء (Adaa) — full site content
+
+> Complete bilingual copy of https://adaa.sd/, the SmartTeam business software
+> suite, plus its two product pages: AdaaTravel (/travel/) and AdaaPay (/pay/).
+> Arabic is the default language; English is rendered by a client-side toggle on
+> each page. No language-prefixed URLs exist.
+
+- Publisher: SmartTeam — https://www.smart.sd/
+- Canonical URLs: https://adaa.sd/ · https://adaa.sd/travel/ · https://adaa.sd/pay/
+- Languages: Arabic (ar, default, RTL), English (en)
+- Structure: three pages — Home, AdaaTravel, AdaaPay; the homepage has Home, Products, Spotlight, Platform, Industries and Contact sections
+- Products: AdaaLMS, AdaaERP, AdaaCRM, AdaaFleet, AdaaPosta, AdaaHR, AdaaPOS, AdaaInventory, AdaaProjects, AdaaBI, AdaaTravel, AdaaPay
+- Last content update: 2026-11-14
+
+---
+
+## العربية — المحتوى الكامل
+
+### الهوية
+
+- الاسم: أداء (Adaa)
+- الوصف: عائلة حلول رقمية من تطوير SmartTeam
+- الشعار التعريفي: SMART BUSINESS SOFTWARE ECOSYSTEM
+- العنوان الرئيسي: كل أعمالك. في منظومة واحدة.
+
+### القسم الرئيسي (#home)
+
+أداء تجمع أدوات إدارة مؤسستك في تجربة رقمية مترابطة؛ من إدارة الموارد والتعلّم
+والعملاء، إلى الأساطيل والخدمات البريدية. حلول مرنة تنمو مع أعمالك، وتمنح فرقك
+رؤية أوضح وتحكمًا أكبر.
+
+- الإجراء الأساسي: اكتشف منتجات أداء
+- الإجراء الثانوي: تحدث مع فريقنا
+- ملاحظة: حلول أعمال رقمية من تطوير SmartTeam
+
+**مصممة لتخدم فرقًا وقطاعات مختلفة**
+
+- منظومة مترابطة
+- تجربة متعددة اللغات
+- مرونة في التشغيل
+- صلاحيات وتحكم
+
+### المنتجات (#products)
+
+**العنوان:** أدوات متخصصة. تعمل معًا.
+
+**الوصف:** ابدأ بالأداة التي تحتاجها اليوم، ثم وسّع منظومتك تدريجيًا مع نمو
+عملياتك. كل منتج يعالج جانبًا محددًا من العمل ضمن رؤية موحّدة.
+
+**عوامل التصفية:** الكل · الإدارة · التشغيل · التعليم
+
+#### AdaaLMS — إدارة التعلّم والتطوير
+
+- التصنيف: التعليم والتدريب
+- الوصف: بيئة تعليمية رقمية لإدارة الدورات والمحتوى والمتعلمين وقياس التقدم،
+  للجامعات ومراكز التدريب والمؤسسات.
+- القدرات: الدورات والمسارات · الاختبارات والتقييم · تقارير المتعلمين
+
+#### AdaaERP — تخطيط موارد المؤسسة
+
+- التصنيف: إدارة المؤسسات
+- الوصف: إدارة مترابطة للعمليات والموارد المالية والإدارية والمخزون والمشتريات،
+  مع تقارير تساعد الإدارة على اتخاذ القرار.
+- القدرات: المالية والحسابات · المخزون والمشتريات · التقارير التشغيلية
+
+#### AdaaCRM — إدارة العملاء والمبيعات
+
+- التصنيف: المبيعات وعلاقات العملاء
+- الوصف: نظّم دورة علاقتك بالعميل من أول تواصل حتى إتمام الصفقة، وتابع الفرص
+  والأنشطة وأداء فريق المبيعات.
+- القدرات: إدارة العملاء المحتملين · مسار المبيعات · متابعة التفاعلات
+
+#### AdaaFleet — إدارة الأساطيل والمركبات
+
+- التصنيف: النقل والخدمات اللوجستية
+- الوصف: تابع المركبات والسائقين والرحلات والصيانة والتكاليف ضمن لوحة تشغيل
+  واحدة لرفع وضوح العمليات.
+- القدرات: إدارة المركبات · الرحلات والتكليفات · الصيانة والتكاليف
+
+#### AdaaPosta — إدارة الخدمات البريدية
+
+- التصنيف: البريد والتوصيل
+- الوصف: إدارة الشحنات والطرود ومراحل الفرز والتوزيع والتسليم، مع متابعة حالة
+  الإرسالية من الاستلام حتى الوصول.
+- القدرات: تسجيل الشحنات · التتبع والحالات · إدارة التوزيع
+
+#### AdaaHR — إدارة الموارد البشرية
+
+- التصنيف: إدارة رأس المال البشري
+- الوصف: نظّم بيانات الموظفين والإجازات والحضور والمهام والإجراءات الإدارية في
+  مساحة عمل أكثر وضوحًا.
+- القدرات: ملفات الموظفين · الحضور والإجازات · الهيكل الوظيفي
+
+#### منتجات مذكورة في قسم المنظومة
+
+- AdaaPOS — نقاط البيع والتجزئة
+- AdaaInventory — إدارة المخزون والمستودعات
+- AdaaProjects — إدارة المشاريع والمهام
+- AdaaBI — ذكاء الأعمال والتحليلات
+
+### السفر والمدفوعات (#spotlight)
+
+**العنوان:** منتجان جديدان من عائلة أداء.
+
+**الوصف:** أضفنا السفر والمدفوعات إلى المنظومة: احجز الرحلات الداخلية والخارجية
+والفنادق والباصات، وحصّل المدفوعات عبر EBS والمحافظ المحمولة.
+
+- **أداء ترافل** — من الخرطوم إلى العالم، بتذكرة واحدة: رحلات خارجية مع بدر
+  وطركان والسودان للطيران والقطرية والإثيوبية والمصرية، وفنادق وبرامج سياحية،
+  وباصات العزيزية وارمادة والنيل وغيرها، مع اختيار المقعد وتذكرة QR.
+- **أداء باي (SmartPay)** — ادفع واقبض عبر EBS والمحافظ: روابط دفع ورموز QR
+  وتسوية يومية ولوحة للتاجر.
+- رابطا المنتجين: https://adaa.sd/travel/ و https://adaa.sd/pay/
+- تنويه ظاهر: صفحتان تجريبيتان تصوران المنتج — بدون مدفوعات أو حجوزات حقيقية.
+
+### صفحة أداء ترافل (/travel/)
+
+**العنوان:** أداء ترافل | رحلات داخلية وخارجية، فنادق وباصات السودان.
+
+**الوصف:** منصة سفر سودانية للحجز وإدارة الرحلات الداخلية والخارجية والفنادق
+وباصات السفر والبرامج السياحية، مع دفع عبر EBS والمحافظ المحمولة وأدوات
+لشركات السياحة والنقل.
+
+- **الرحلات الخارجية:** الخرطوم إلى القاهرة والدوحة وأديس أبابا ودبي وجدة
+  وإسطنبول، مع بدر وطركان والسودان للطيران والقطرية والإثيوبية ومصر للطيران
+  وفلاي دبي والخطوط التركية.
+- **الباصات المحلية:** العزيزية، ارمادة، النيل، سودان باص، شندي، ود مدني،
+  الهلال، الجزيرة — مع اختيار المقعد وتذكرة QR.
+- **الرحلات الداخلية:** بورتسودان، كسلا، مروي، ود مدني؛ فنادق وبرامج سياحية
+  (مروي، بورتسودان، كسلا، الخرطوم).
+- **للشركات:** إدارة الرحلات والمقاعد والأسعار والحجوزات والتقارير، وربط مع
+  المالية والموارد البشرية في أداء ERP.
+- **تنويه:** الأسعار والمواعيد والوجهات توضيحية، وتوفر الرحلات يعتمد على
+  الاتفاقيات وجداول التشغيل الفعلية.
+
+### صفحة أداء باي (/pay/)
+
+**العنوان:** أداء باي (SmartPay) | مدفوعات رقمية للسودان — EBS والمحافظ.
+
+**الوصف:** منصة مدفوعات تربط المتاجر والأفراد بشبكة EBS والمحافظ المحمولة
+ووكلاء النقد، مع روابط دفع ورموز QR وتسوية يومية ولوحة للتاجر.
+
+- **قنوات الدفع:** EBS، المحافظ المحمولة (بنكك، فوري، أوكاش، بيدي، مومو،
+  كاشي، برافو، ماي كاش، SAH)، USSD، وكلاء النقد، ورموز QR.
+- **تجربة التاجر:** صفحة دفع، ملخص مع رسم 1.5% في النموذج، إيصال، وسجل معاملات.
+- **تنويه:** عرض تصوري فقط؛ لا مدفوعات حقيقية ولا ادعاءات بتوفر مباشر لدى
+  EBS أو بنك السودان المركزي.
+
+### المنظومة (#platform)
+
+**العنوان:** ليست برامج منفصلة؛ بل منظومة تعمل بتناغم.
+
+**الوصف:** تمنحك عائلة أداء مساحة لتوحيد البيانات والإجراءات بين الإدارات،
+وتقليل تشتت الأدوات، وبناء تجربة تشغيل تتناسب مع هيكل مؤسستك.
+
+- **رؤية موحّدة للبيانات** — اجمع المؤشرات المهمة في لوحات وتقارير تساعد الفرق
+  والإدارة.
+- **مرونة في التوسع والتخصيص** — اختر المنتجات والوحدات التي تناسب أولوياتك،
+  ووسّعها عند الحاجة.
+- **تكامل مع بيئتك التقنية** — تصميم قابل للربط مع الأنظمة والخدمات الأخرى عبر
+  واجهات التكامل حسب نطاق المشروع.
+- **تحكم حسب الأدوار** — هيكل صلاحيات يساعد على تنظيم الوصول والمسؤوليات داخل
+  المؤسسة.
+
+### القطاعات (#industries)
+
+**العنوان:** حلول تتكيف مع طبيعة قطاعك.
+
+**الوصف:** تتعدد احتياجات المؤسسات، لذلك صُممت عائلة أداء لتكون قابلة للتشكيل
+حول طبيعة العمل وحجم العمليات.
+
+- **التعليم والتدريب** — إدارة المؤسسات التعليمية، البرامج التدريبية، والمتعلمين.
+- **الشركات والمؤسسات** — تنظيم الموارد والعمليات والفرق والإجراءات الإدارية.
+- **التجارة والتجزئة** — إدارة المبيعات والمخزون والعملاء ونقاط البيع.
+- **النقل والخدمات اللوجستية** — متابعة الأساطيل والشحنات ومسارات التشغيل والتسليم.
+
+### التواصل (#contact)
+
+**العنوان:** ابدأ بتحديد احتياجك، ودعنا نبني الحل المناسب.
+
+**الوصف:** تواصل مع SmartTeam لمناقشة طبيعة عملياتك، والمنتجات والوحدات التي
+يمكن أن تدعم أهداف مؤسستك.
+
+**الإجراء:** تواصل مع SmartTeam — https://www.smart.sd/
+
+### التذييل
+
+أداء — عائلة حلول رقمية تساعد المؤسسات على إدارة أعمالها بوضوح ومرونة، من خلال
+أدوات متخصصة ضمن منظومة واحدة. جميع الحقوق محفوظة. الصور توضيحية من مكتبات
+صور مفتوحة.
+
+---
+
+## English — complete content
+
+### Identity
+
+- Name: Adaa (أداء)
+- Positioning: A SmartTeam product suite
+- Eyebrow: SMART BUSINESS SOFTWARE ECOSYSTEM
+- Headline: Run your business. As one connected system.
+
+### Home (#home)
+
+Adaa brings essential business tools into one connected digital experience —
+from resources, learning and customer management to fleet and postal operations.
+Flexible solutions designed to grow with your organization.
+
+- Primary action: Explore Adaa products
+- Secondary action: Talk to our team
+- Note: Business solutions by SmartTeam
+
+**Designed for different teams and industries**
+
+- Connected suite
+- Multilingual experience
+- Flexible deployment
+- Roles and access control
+
+### Products (#products)
+
+**Title:** Purpose-built tools. Working together.
+
+**Description:** Start with the tool you need today, then expand your suite as
+your operations evolve. Each product focuses on a business function within a
+connected vision.
+
+**Filters:** All · Management · Operations · Learning
+
+#### AdaaLMS — Learning management
+
+- Category: Learning & development
+- Description: A digital learning environment to manage courses, content,
+  learners and progress for universities, training centers and organizations.
+- Capabilities: Courses & paths · Assessments · Learner reports
+
+#### AdaaERP — Enterprise resource planning
+
+- Category: Enterprise management
+- Description: Connected management of operational, financial and administrative
+  resources, inventory and procurement, supported by useful reports.
+- Capabilities: Finance & accounting · Inventory & procurement · Operational reports
+
+#### AdaaCRM — Customer & sales management
+
+- Category: Sales & customer relationships
+- Description: Organize the customer journey from first contact to closed deal,
+  while tracking opportunities, activities and sales performance.
+- Capabilities: Lead management · Sales pipeline · Interaction history
+
+#### AdaaFleet — Fleet & vehicle management
+
+- Category: Transport & logistics
+- Description: Oversee vehicles, drivers, trips, maintenance and costs through a
+  unified operations workspace.
+- Capabilities: Vehicle records · Trips & assignments · Maintenance & costs
+
+#### AdaaPosta — Postal operations management
+
+- Category: Postal & delivery services
+- Description: Manage shipments, parcels, sorting, distribution and delivery,
+  with shipment status visibility from intake to destination.
+- Capabilities: Shipment intake · Tracking & statuses · Distribution management
+
+#### AdaaHR — Human resources management
+
+- Category: People management
+- Description: Organize employee records, leave, attendance, tasks and
+  administrative workflows in a clearer workspace.
+- Capabilities: Employee profiles · Attendance & leave · Organization structure
+
+#### Products named in the platform section
+
+- AdaaPOS — Point of sale & retail
+- AdaaInventory — Inventory & warehouses
+- AdaaProjects — Projects & tasks
+- AdaaBI — Business intelligence
+
+### Travel & payments (#spotlight)
+
+**Title:** Two new products. One connected suite.
+
+**Description:** Travel and payments now join the Adaa suite: book domestic and
+international flights, hotels and intercity buses, and collect payments through
+EBS and mobile wallets.
+
+- **AdaaTravel** — From Khartoum to the world on one ticket: international
+  flights with Badr, Tarco, Sudan Airways, Qatar Airways, Ethiopian and EgyptAir,
+  plus hotels, tours and buses from Al-Aziziya, Armada, Al-Nile and others, with
+  seat selection and QR tickets.
+- **AdaaPay (SmartPay)** — Pay and collect via EBS and wallets, with payment
+  links, QR codes, daily settlement and a merchant dashboard.
+- Product links: https://adaa.sd/travel/ and https://adaa.sd/pay/
+- Visible disclaimer: two concept pages that preview each product — no real
+  payments or bookings.
+
+### AdaaTravel page (/travel/)
+
+**Title:** AdaaTravel | Domestic and international flights, hotels and buses.
+
+**Description:** A Sudanese travel platform for booking and managing domestic
+and international flights, hotels, intercity buses and organised tours, with EBS
+and mobile-wallet payment and tools for tourism and transport companies.
+
+- **International flights:** Khartoum to Cairo, Doha, Addis Ababa, Dubai, Jeddah
+  and Istanbul, with Badr, Tarco, Sudan Airways, Qatar Airways, Ethiopian,
+  EgyptAir, flydubai and Turkish Airlines.
+- **Local buses:** Al-Aziziya, Armada, Al-Nile, Sudan Bus, Shendi, Wad Madani,
+  Al-Hilal and Al-Jazira, with seat selection and QR tickets.
+- **Domestic travel:** Port Sudan, Kassala, Meroe and Wad Madani, plus hotels and
+  tours (Meroe, Port Sudan, Kassala, Khartoum).
+- **For operators:** manage trips, seats, pricing, bookings and reports, connected
+  to finance and HR in Adaa ERP.
+- **Disclaimer:** prices, schedules and destinations are illustrative; route
+  availability depends on airline agreements and live schedules.
+
+### AdaaPay page (/pay/)
+
+**Title:** AdaaPay (SmartPay) | Digital payments for Sudan — EBS and wallets.
+
+**Description:** A payments platform connecting merchants and individuals to
+EBS, mobile wallets and cash agents, with payment links, QR codes, daily
+settlement and a merchant dashboard.
+
+- **Payment channels:** EBS, mobile wallets (Bankak, Fawry, Ocash, Bede, MoMo,
+  Cashi, Bravo, MyCash, SAH), USSD, cash agents and QR.
+- **Merchant experience:** checkout page, summary with a 1.5% fee in the demo,
+  receipt and transaction log.
+- **Disclaimer:** concept demo only; no real payments and no claim of direct
+  availability from EBS or the Central Bank of Sudan.
+
+### Platform (#platform)
+
+**Title:** More than separate apps. A connected way to work.
+
+**Description:** The Adaa suite gives you a way to align data and workflows
+across departments, reduce tool fragmentation and shape an operating experience
+around your organization.
+
+- **A unified view of data** — Bring important indicators into dashboards and
+  reports for teams and leadership.
+- **Flexible growth and customization** — Choose the products and modules that
+  fit your priorities, and expand when needed.
+- **Fits your technology environment** — Designed to connect with other systems
+  and services through integrations scoped to your project.
+- **Role-based access** — A permissions structure to organize access and
+  responsibilities across your organization.
+
+### Industries (#industries)
+
+**Title:** Solutions shaped around your industry.
+
+**Description:** Organizations have different needs. Adaa is designed to be
+configured around the nature and scale of your operations.
+
+- **Education & training** — Manage learning institutions, training programs and learners.
+- **Companies & enterprises** — Coordinate resources, operations, teams and administration.
+- **Commerce & retail** — Manage sales, inventory, customers and point of sale.
+- **Transport & logistics** — Oversee fleets, shipments, routes and delivery operations.
+
+### Contact (#contact)
+
+**Title:** Start with your needs. Let's shape the right solution.
+
+**Description:** Talk to SmartTeam about your operations and the products or
+modules that can support your organization's goals.
+
+**Action:** Contact SmartTeam — https://www.smart.sd/
+
+### Footer
+
+Adaa is a family of digital solutions that helps organizations manage their work
+with clarity and flexibility through specialized tools in one connected suite.
+All rights reserved. Images are illustrative, from open stock libraries.
+
+---
+
+## Provenance and limits
+
+- Every statement above is copy from https://adaa.sd/, /travel/ and /pay/ on
+  2026-11-14; nothing is extrapolated beyond what those pages publish.
+- The pages carry concept illustrations: a dashboard mock-up plus stock
+  photography, all served from this domain and labelled illustrative in the
+  interface.
+- AdaaTravel schedules, prices and destinations are demo data. AdaaPay performs
+  no real transactions and states that live network availability must be
+  confirmed.
+- No pricing, licensing, customer counts or deployment timelines are published on
+  this site. Pricing and demo requests are handled by SmartTeam at
+  https://www.smart.sd/.
+- Machine-readable summary: https://adaa.sd/llms.txt

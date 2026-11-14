@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AdaaPay (SmartPay) | مدفوعات رقمية للسودان — EBS والمحافظ</title>
+  <meta name="description" content="AdaaPay (SmartPay) من SmartTeam — بوابة دفع سودانية تجمع بطاقات EBS وتطبيقات البنوك والمحافظ المحمولة ورموز QR وUSSD ووكلاء النقد، مع أدوات للتجار وواجهات للمطورين." />
+  <meta name="author" content="SmartTeam" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://adaa.sd/pay/" />
+  <link rel="alternate" hreflang="x-default" href="https://adaa.sd/pay/" />
+  <link rel="alternate" hreflang="ar" href="https://adaa.sd/pay/" />
+  <link rel="alternate" hreflang="en" href="https://adaa.sd/pay/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="أداء — Adaa" />
+  <meta property="og:url" content="https://adaa.sd/pay/" />
+  <meta property="og:title" content="AdaaPay (SmartPay) | مدفوعات رقمية مصممة لواقع السودان" />
+  <meta property="og:description" content="بوابة دفع واحدة تجمع EBS وتطبيقات البنوك والمحافظ المحمولة وQR وUSSD ووكلاء النقد." />
+  <meta property="og:image" content="https://adaa.sd/images/pay/og-pay.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="ar_AR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AdaaPay (SmartPay) | مدفوعات رقمية مصممة لواقع السودان" />
+  <meta name="twitter:description" content="EBS، محافظ محمولة، QR، USSD ووكلاء نقد — في تجربة دفع واحدة." />
+  <meta name="twitter:image" content="https://adaa.sd/images/pay/og-pay.jpg" />
+
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" />
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#F5F3ED" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#17372E" media="(prefers-color-scheme: dark)" />
+  <meta name="color-scheme" content="light" />
+
+  <link rel="preload" href="/fonts/plex-arabic-400-arabic.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/assets/adaa.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://adaa.sd/pay/#webpage",
+        "url": "https://adaa.sd/pay/",
+        "name": "AdaaPay (SmartPay) | مدفوعات رقمية للسودان",
+        "description": "AdaaPay (SmartPay) — بوابة دفع سودانية تجمع EBS والمحافظ المحمولة وQR وUSSD ووكلاء النقد، ضمن منظومة أداء من SmartTeam.",
+        "inLanguage": ["ar", "en"],
+        "isPartOf": { "@id": "https://adaa.sd/#website" },
+        "publisher": { "@id": "https://adaa.sd/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://adaa.sd/pay/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "أداء", "item": "https://adaa.sd/" },
+          { "@type": "ListItem", "position": 2, "name": "AdaaPay", "item": "https://adaa.sd/pay/" }
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "AdaaPay",
+        "alternateName": ["SmartPay", "أداء باي"],
+        "applicationCategory": "FinanceApplication",
+        "applicationSubCategory": "Payments and checkout",
+        "operatingSystem": "Web, iOS, Android",
+        "description": "بوابة دفع سودانية تجمع بطاقات EBS وتطبيقات البنوك والمحافظ المحمولة ورموز QR وUSSD ووكلاء النقد، مع أدوات للتجار وواجهات للمطورين.",
+        "url": "https://adaa.sd/pay/",
+        "publisher": { "@id": "https://adaa.sd/#organization" },
+        "featureList": [
+          "مدفوعات EBS وتطبيقات البنوك",
+          "محافظ محمولة",
+          "رموز QR",
+          "USSD",
+          "وكلاء نقد",
+          "روابط دفع وفواتير",
+          "لوحة تاجر وتسويات",
+          "واجهات API وWebhooks"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body dir="rtl">
+  <a class="skip" href="#main" data-i18n="skip">تخطَّ إلى المحتوى</a>
+  <div class="top-sentinel" id="topSentinel" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <svg aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden">
+    <symbol id="i-mark" viewBox="0 0 128 128"><path d="M14 116 53 33Q56 27 62 27h4l41 89H85L60 63 36 116Z" fill="#17372e"/><path d="M60 63 85 116h22L66 27h-4l-9 6Z" fill="#3f7963"/><path d="M41 85h41l6 12H35Z" fill="#c66e50"/><rect x="58" y="13" width="11" height="11" rx="1" transform="rotate(45 63.5 18.5)" fill="#c66e50"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M2 10h20M6 15h3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M3 7a3 3 0 0 1 3-3h12v4M3 7v11a3 3 0 0 0 3 3h15V7H6a3 3 0 0 1-3-3Zm14 7h2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-qr" viewBox="0 0 24 24"><path d="M3 3h6v6H3V3Zm12 0h6v6h-6V3ZM3 15h6v6H3v-6Zm12 0h3v3h-3v-3Zm3 3h3v3h-3v-3Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M6 6h.01M18 6h.01M6 18h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-signal" viewBox="0 0 24 24"><path d="M4 20h16M7 20v-4m5 4V9m5 11V4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1.5 1.5M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1.5-1.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18a5 5 0 1 1 1-9.9A6 6 0 0 1 20 10a4 4 0 0 1-1 8H7Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 19V5m0 14h17M8 15l3-4 3 2 5-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2l2.2 11.2A2 2 0 0 0 9.2 17H18a2 2 0 0 0 1.9-1.4L22 9H6M10 21h.01M18 21h.01" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bus" viewBox="0 0 24 24"><path d="M5 4h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 8h14M8 18v2m8-2v2M7 10h.01M17 10h.01" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 0 4 22V5.5Zm0 0V19a3 3 0 0 1 3-3h13M8 7h8M8 11h6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v11H3zM14 10h4l3 3v4h-7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7.5" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17.5" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2m7-10a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm11 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><path d="M3 21h18M5 21V5l7-3 7 3v16M9 8h1m4 0h1M9 12h1m4 0h1M9 16h1m4 0h1" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/">
+        <span class="brand-mark"><svg><use href="#i-mark"/></svg></span>
+        <span class="brand-name"><span data-i18n="brandWord">أداء</span><small data-i18n="brandBy">Adaa · by SmartTeam</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main">
+        <a href="/" data-i18n="navHome">الرئيسية</a>
+        <a href="#demo" data-i18n="navProduct">المنتج</a>
+        <a href="#methods" data-i18n="navMethods">طرق الدفع</a>
+        <a href="#merchants" data-i18n="navMerchants">للتجار</a>
+        <a href="#developers" data-i18n="navDevelopers">للمطورين</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-btn" id="langToggle" type="button" aria-label="EN — switch to English">EN</button>
+        <a class="btn btn-primary nav-cta" href="#contact" data-i18n="navCta">اطلب عرضًا</a>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="فتح القائمة"><svg class="icon"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero-sub hero-pay" id="top">
+      <div class="container hero-sub-grid">
+        <div class="hero-copy">
+          <span class="eyebrow" data-i18n="heroEyebrow">ADAAPAY · SMARTPAY FOR SUDAN</span>
+          <h1 data-i18n="heroTitle">مدفوعات رقمية<br><span>مصممة لواقع السودان.</span></h1>
+          <p data-i18n="heroText">بوابة دفع واحدة تجمع بطاقات EBS وتطبيقات البنوك والمحافظ المحمولة ورموز QR وUSSD ووكلاء النقد. تجربة checkout عربية تعمل على الهاتف، ومصممة للاتصال المتقطع.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#demo"><span data-i18n="heroPrimary">جرّب الدفع الآن</span><svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-ghost" href="#developers" data-i18n="heroSecondary">تكامل للمطورين</a>
+          </div>
+          <div class="hero-note"><span class="dots"><i></i><i></i><i></i></span><span data-i18n="heroNote">AdaaPay / SmartPay · ضمن منظومة أداء من SmartTeam</span></div>
+        </div>
+        <div class="hero-media">
+          <div class="phone-stage">
+            <div class="phone-photo"><img src="/images/pay/hero-600.webp" srcset="/images/pay/hero-600.webp 600w, /images/pay/hero-1000.webp 1000w" sizes="(max-width: 900px) 92vw, 46vw" width="1000" height="750" alt="بائعون في سوق سوداني" decoding="async"></div>
+            <span class="float-chip one"><svg><use href="#i-check"/></svg><span data-i18n="floatPaid">تم الدفع</span></span>
+            <span class="float-chip two"><svg><use href="#i-bolt"/></svg><span data-i18n="floatInstant">تأكيد فوري</span></span>
+            <div class="phone" aria-label="واجهة محفظة AdaaPay التجريبية">
+              <div class="phone-screen">
+                <div class="phone-status"><span>9:41</span><span class="cam"></span><span>5G</span></div>
+                <div class="phone-head"><b>AdaaPay</b><span>WALLET</span></div>
+                <div class="phone-body">
+                  <div class="phone-balance"><small data-i18n="heroBalanceLabel">رصيد المحفظة</small><b>1,250,000 <span style="font-size:9px;font-family:Manrope">SDG</span></b><span data-i18n="heroBalanceSub">متاح للسحب والدفع</span></div>
+                  <div class="phone-merchant"><i>NS</i><div><b data-i18n="heroMerchant">متجر النيل</b><small data-i18n="heroMerchantSub">الخرطوم · دفع آمن</small></div></div>
+                  <p class="phone-label" data-i18n="heroQuick">اختصارات</p>
+                  <div class="phone-method on"><span><b data-i18n="heroQuick1">تحويل</b><small data-i18n="heroQuick1Sub">إلى محفظة أو بنك</small></span><span class="dot"></span></div>
+                  <div class="phone-method"><span><b data-i18n="heroQuick2">فاتورة</b><small data-i18n="heroQuick2Sub">كهرباء · اتصالات</small></span><span class="dot" style="background:#c66e50"></span></div>
+                  <div class="phone-method"><span><b data-i18n="heroQuick3">رمز QR</b><small data-i18n="heroQuick3Sub">امسح وادفع</small></span><span class="dot" style="background:#17372e"></span></div>
+                  <button class="btn btn-primary" type="button" onclick="document.getElementById('demo').scrollIntoView({behavior:'smooth'})" data-i18n="heroPhoneCta">جرّب عملية دفع</button>
+                  <p class="phone-note" data-i18n="phoneDemoNote">واجهة تجريبية</p>
+                </div>
+              </div>
+            </div>
+            <div class="phone-caption"><span data-i18n="heroCaption">محفظة واحدة. كل الطرق.</span><small data-i18n="heroCaptionSub">EBS · محافظ · QR · وكلاء</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" style="background:#21483b" aria-label="مزايا AdaaPay">
+      <div class="container trust-inner">
+        <div class="trust-caption" data-i18n="trustCaption">مبنية على قنوات الدفع المستخدمة فعليًا في السودان</div>
+        <div class="trust-points">
+          <span><svg><use href="#i-layers"/></svg><b data-i18n="trust1">EBS والمحافظ المحلية</b></span>
+          <span><svg><use href="#i-shield"/></svg><b data-i18n="trust2">أمان ومعايير PCI-DSS</b></span>
+          <span><svg><use href="#i-cloud"/></svg><b data-i18n="trust3">تعمل مع اتصال متقطع</b></span>
+          <span><svg><use href="#i-globe"/></svg><b data-i18n="trust4">عربي وإنجليزي</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="methods">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="methodsEyebrow">ONE CHECKOUT · EVERY RAIL</span>
+            <h2 class="section-title" data-i18n="methodsTitle">كل طرق الدفع التي يستخدمها السودانيون.</h2>
+            <p class="section-subtitle" data-i18n="methodsText">لا تجبر عميلك على طريقة واحدة. اختر المسار الأنسب لكل عملية، مع تسوية موحدة وتقارير واحدة.</p>
+          </div>
+          <a class="text-link" href="#demo"><span data-i18n="methodsLink">جرّب الدفع</span><svg><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="method-grid">
+          <article class="method reveal"><div class="method-top"><span class="method-icon"><svg><use href="#i-card"/></svg></span><span class="card-tag" data-i18n="methodPopular">الأكثر استخدامًا</span></div><h3 data-i18n="method1Title">بطاقات EBS وتطبيقات البنوك</h3><p data-i18n="method1Text">بطاقات ATM وتحويلات BBAN من تطبيقات البنوك السودانية، عبر الشبكة الوطنية EBS.</p><div class="chips"><span>EBS</span><span>Bankak</span><span>Fawry</span><span>Ocash</span><span>BBAN</span></div></article>
+          <article class="method reveal"><div class="method-top"><span class="method-icon"><svg><use href="#i-wallet"/></svg></span></div><h3 data-i18n="method2Title">المحافظ المحمولة</h3><p data-i18n="method2Text">محافظ شركات الاتصالات والمزودين المستقلين، لعملاء لا يملكون حسابًا بنكيًا.</p><div class="chips"><span>Bede</span><span>MoMo</span><span>Cashi</span><span>Bravo</span><span>MyCash</span><span>SAH</span></div></article>
+          <article class="method reveal"><div class="method-top"><span class="method-icon"><svg><use href="#i-qr"/></svg></span><span class="card-tag" data-i18n="methodFast">سريع</span></div><h3 data-i18n="method3Title">رموز QR</h3><p data-i18n="method3Text">امسح وادفع من تطبيق البنك أو المحفظة، أو اعرض رمزك ليتم الدفع لك.</p><div class="chips"><span>QR</span><span>Bankak Pay</span><span>Cashi</span><span>Bravo</span></div></article>
+          <article class="method reveal"><div class="method-top"><span class="method-icon"><svg><use href="#i-signal"/></svg></span></div><h3 data-i18n="method4Title">USSD والهواتف العادية</h3><p data-i18n="method4Text">ادفع من هاتف بسيط بدون إنترنت — مناسب للمناطق ذات التغطية المحدودة.</p><div class="chips"><span>USSD</span><span>Feature phone</span><span>SMS</span></div></article>
+          <article class="method reveal"><div class="method-top"><span class="method-icon"><svg><use href="#i-pin"/></svg></span></div><h3 data-i18n="method5Title">وكلاء النقد</h3><p data-i18n="method5Text">Cash-in وCash-out عبر شبكة وكلاء محلية، مع إيصال رقمي وتحديث فوري للرصيد.</p><div class="chips"><span data-i18n="chipAgents">شبكة وكلاء</span><span>Cash-in</span><span>Cash-out</span></div></article>
+          <article class="method reveal"><div class="method-top"><span class="method-icon"><svg><use href="#i-link"/></svg></span><span class="card-tag" data-i18n="methodNew">للتجار</span></div><h3 data-i18n="method6Title">روابط الدفع والفواتير</h3><p data-i18n="method6Text">أرسل رابطًا أو فاتورة عبر واتساب أو SMS أو البريد، وتابع السداد من لوحة واحدة.</p><div class="chips"><span>Payment link</span><span>Invoice</span><span>WhatsApp</span></div></article>
+        </div>
+        <p class="section-subtitle" style="font-size:10px;margin-top:22px;max-width:900px" data-i18n="methodsNote">توفر كل قناة يعتمد على اتفاقيات المزودين وتراخيص البنك المركزي السوداني. هذه الصفحة عرض تجريبي لتصور المنتج، وليست عرضًا لخدمة مرخصة.</p>
+      </div>
+    </section>
+
+    <section class="section" id="demo">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="demoEyebrow">CHECKOUT DEMO</span>
+            <h2 class="section-title" data-i18n="demoTitle">جرّب الدفع كما سيحدث فعلًا.</h2>
+            <p class="section-subtitle" data-i18n="demoText">أدخل مبلغًا، اختر EBS أو محفظة أو QR أو وكيلًا نقديًا، ثم تابع الحالة على الهاتف. واجهة تجريبية كاملة لا تُنفذ أي خصم حقيقي.</p>
+          </div>
+          <a class="text-link" href="#methods"><span data-i18n="demoLink">كل طرق الدفع</span><svg><use href="#i-arrow"/></svg></a>
+        </div>
+
+        <div class="checkout">
+          <form class="checkout-panel" id="payForm" novalidate>
+            <div class="checkout-step" id="payStepForm">
+              <span class="demo-badge" data-i18n="demoBadge">بيئة تجريبية</span>
+              <h3 data-i18n="payPanelTitle">جرّب عملية دفع</h3>
+              <p data-i18n="payPanelSub">هذه محاكاة لواجهة التاجر. لن تُرسل بيانات ولن يُخصم أي مبلغ.</p>
+
+              <label class="field-label" for="payAmount" data-i18n="amountLabel">المبلغ</label>
+              <div class="amount-row">
+                <input id="payAmount" type="number" inputmode="numeric" min="1000" step="500" value="25000" aria-describedby="payAmountHint" />
+                <span class="amount-currency">SDG</span>
+              </div>
+              <div class="presets" role="group" aria-label="مبالغ سريعة">
+                <button class="preset" type="button" data-amount="5000">5,000</button>
+                <button class="preset" type="button" data-amount="15000">15,000</button>
+                <button class="preset on" type="button" data-amount="25000">25,000</button>
+                <button class="preset" type="button" data-amount="75000">75,000</button>
+                <button class="preset" type="button" data-amount="150000">150,000</button>
+              </div>
+
+              <p class="field-label" data-i18n="payMethodLabel">طريقة الدفع</p>
+              <div class="pay-grid" role="group" aria-label="طريقة الدفع">
+                <button class="pay-option selected" type="button" data-method="ebs"><span><b data-i18n="methodEbs">بطاقة EBS أو تطبيق بنك</b><small data-i18n="methodEbsSub">بنكك · فوري · أوكاش</small></span><span class="radio"></span></button>
+                <button class="pay-option" type="button" data-method="wallet"><span><b data-i18n="methodWallet">محفظة محمولة</b><small data-i18n="methodWalletSub">بيدي · MoMo · كاشي · برافو</small></span><span class="radio"></span></button>
+                <button class="pay-option" type="button" data-method="qr"><span><b data-i18n="methodQr">رمز QR</b><small data-i18n="methodQrSub">امسح من تطبيق البنك أو المحفظة</small></span><span class="radio"></span></button>
+                <button class="pay-option" type="button" data-method="agent"><span><b data-i18n="methodAgent">وكيل نقدي</b><small data-i18n="methodAgentSub">ادفع نقدًا واستلم إيصالًا</small></span><span class="radio"></span></button>
+              </div>
+
+              <div class="checkout-fields">
+                <div class="modal-field">
+                  <label for="payPhone" data-i18n="fieldPhone">رقم الهاتف</label>
+                  <input id="payPhone" type="tel" inputmode="tel" autocomplete="tel" placeholder="09XXXXXXXX" value="0912345678" />
+                </div>
+                <div class="modal-field">
+                  <label for="payOrder" data-i18n="fieldOrder">مرجع الطلب</label>
+                  <input id="payOrder" type="text" autocomplete="off" value="NS-2041" />
+                </div>
+              </div>
+
+              <div class="checkout-line"><span data-i18n="amountLabel">المبلغ</span><b id="feeBase">25,000 SDG</b></div>
+              <div class="checkout-line"><span data-i18n="feeLabel">رسوم المنصة (1.5%)</span><b id="feeValue">375 SDG</b></div>
+              <div class="checkout-total"><span data-i18n="totalLabel">الإجمالي</span><b id="payTotal">25,375 SDG</b></div>
+              <button class="btn btn-primary" id="payBtn" type="submit"><span data-i18n="payButton">ادفع الآن</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+              <p class="modal-legal" data-i18n="demoLegal">واجهة تجريبية بالكامل. لا تُنفذ أي عملية دفع ولا تُرسل بيانات إلى أي مزود.</p>
+            </div>
+
+            <div class="checkout-step pay-success-panel" id="payStepProcessing" hidden>
+              <div class="spinner" aria-hidden="true"></div>
+              <h3 data-i18n="processingTitle">جارٍ معالجة الدفع…</h3>
+              <p class="modal-sub" data-i18n="processingSub">نتحقق من العملية مع المزود. لا تغلق الصفحة.</p>
+            </div>
+
+            <div class="checkout-step pay-success-panel" id="payStepSuccess" hidden>
+              <div class="success-mark"><svg><use href="#i-check"/></svg></div>
+              <h3 data-i18n="successTitle">تم استلام الدفع</h3>
+              <p class="modal-sub" data-i18n="successSub">إيصال تجريبي. في الإنتاج يصلك تأكيد فوري ورسالة SMS، ويُسوّى المبلغ مع التاجر.</p>
+              <div class="receipt">
+                <div class="receipt-line"><span data-i18n="receiptRef">مرجع العملية</span><b id="payReceiptRef">—</b></div>
+                <div class="receipt-line"><span data-i18n="receiptAmount">المبلغ</span><b id="payReceiptAmount">—</b></div>
+                <div class="receipt-line"><span data-i18n="receiptMethod">طريقة الدفع</span><b id="payReceiptMethod">—</b></div>
+                <div class="receipt-line"><span data-i18n="receiptPhone">الهاتف</span><b id="payReceiptPhone">—</b></div>
+              </div>
+              <button class="btn btn-dark" id="newPayment" type="button" data-i18n="newPayment">عملية جديدة</button>
+            </div>
+          </form>
+
+          <div class="phone-stage">
+            <div class="phone-photo">
+              <img src="/images/pay/merchant-500.webp" srcset="/images/pay/merchant-500.webp 500w, /images/pay/merchant-900.webp 900w" sizes="(max-width: 900px) 92vw, 46vw" width="900" height="600" alt="عميل يدفع في متجر" loading="lazy" decoding="async" />
+            </div>
+            <span class="float-chip one"><svg><use href="#i-bolt"/></svg><span data-i18n="floatInstant">تأكيد فوري</span></span>
+            <span class="float-chip two"><svg><use href="#i-shield"/></svg><span data-i18n="floatSecure">مشفّر</span></span>
+
+            <div class="phone" aria-label="محاكاة محفظة AdaaPay">
+              <div class="phone-screen">
+                <div class="phone-status"><span>9:41</span><span class="cam"></span><span>5G</span></div>
+                <div class="phone-head"><b>AdaaPay</b><span>CHECKOUT</span></div>
+
+                <div class="phone-body" id="phonePayStep">
+                  <div class="phone-merchant"><i>NS</i><div><b data-i18n="heroMerchant">متجر النيل</b><small data-i18n="phoneMerchantSub">الخرطوم · طلب NS-2041</small></div></div>
+                  <div class="phone-amount"><b id="phoneAmount">25,375</b><span>SDG</span></div>
+                  <p class="phone-label" data-i18n="payMethodLabel">طريقة الدفع</p>
+                  <div class="phone-method on"><span><b id="phoneMethodName">بطاقة EBS أو تطبيق بنك</b><small id="phoneMethodSub">بنكك · فوري · أوكاش</small></span><span class="dot"></span></div>
+                  <div class="phone-method"><span><b data-i18n="phoneFeeLine">رسوم المنصة</b><small id="phoneFeeValue">375 SDG · 1.5%</small></span><span class="dot" style="background:#c66e50"></span></div>
+                  <button class="btn btn-primary" id="phonePayBtn" type="button" data-i18n="phonePayCta">ادفع الآن</button>
+                  <p class="phone-note" data-i18n="phoneDemoNote">واجهة تجريبية — لا خصم فعلي</p>
+                </div>
+
+                <div class="phone-body phone-processing" id="phoneProcessing" hidden>
+                  <div class="spinner" aria-hidden="true"></div>
+                  <h4 data-i18n="phoneProcessingTitle">جارٍ التأكيد</h4>
+                  <p data-i18n="phoneProcessingText">نتحقق من العملية عبر قناة الدفع المختارة…</p>
+                </div>
+
+                <div class="phone-body phone-success" id="phoneSuccess" hidden>
+                  <div class="success-mark"><svg><use href="#i-check"/></svg></div>
+                  <h4 data-i18n="phoneSuccessTitle">تم الدفع</h4>
+                  <p data-i18n="phoneSuccessText">محاكاة ناجحة — لا حركة أموال.</p>
+                  <div class="receipt phone-receipt">
+                    <div class="receipt-line"><span data-i18n="receiptRef">مرجع العملية</span><b id="phoneReceiptRef">—</b></div>
+                    <div class="receipt-line"><span data-i18n="receiptAmount">المبلغ</span><b id="phoneReceiptAmount">—</b></div>
+                    <div class="receipt-line"><span data-i18n="receiptMethod">طريقة الدفع</span><b id="phoneReceiptMethod">—</b></div>
+                  </div>
+                  <div class="qr" aria-hidden="true"></div>
+                </div>
+              </div>
+            </div>
+            <div class="phone-caption"><span data-i18n="demoCaption">التاجر والمحفظة في شاشة واحدة</span><small data-i18n="demoCaptionSub">EBS · محفظة · QR · وكيل</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section deep" id="merchants">
+      <div class="container integration" style="align-items:start">
+        <div>
+          <span class="eyebrow" data-i18n="merchEyebrow">FOR MERCHANTS</span>
+          <h2 class="section-title" data-i18n="merchTitle">استقبل المدفوعات. وأدِر كل شيء من لوحة واحدة.</h2>
+          <p class="section-subtitle" data-i18n="merchText">AdaaPay لا يقتصر على صفحة الدفع. يمنح المتاجر والمطاعم والصيدليات وشركات الخدمات أدوات لإدارة الطلبات والتسويات والمبالغ المستردة والتقارير، مع ربط مباشر بمالية أداء ERP.</p>
+          <ul class="checks">
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="mf1Title">روابط وفواتير دفع</strong><span data-i18n="mf1Text">أنشئ رابطًا أو فاتورة وأرسلها عبر واتساب أو SMS أو البريد.</span></div></li>
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="mf2Title">تسوية موحدة</strong><span data-i18n="mf2Text">كل القنوات في كشف واحد: EBS والمحافظ والوكلاء وQR.</span></div></li>
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="mf3Title">المبالغ المستردة</strong><span data-i18n="mf3Text">استرداد كامل أو جزئي مع سبب وسجل تدقيق واضح.</span></div></li>
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="mf4Title">فروع وموظفون</strong><span data-i18n="mf4Text">حساب لكل فرع أو كاشير، بصلاحيات وحدود تشغيلية.</span></div></li>
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="mf5Title">تقارير ومدفوعات</strong><span data-i18n="mf5Text">تابع الحجم ونسبة النجاح ومتوسط الفاتورة ومصادر الدخل.</span></div></li>
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="mf6Title">تكامل POS والتطبيقات</strong><span data-i18n="mf6Text">اربط الكاشير أو المتجر أو تطبيقك عبر API وWebhooks.</span></div></li>
+          </ul>
+        </div>
+
+        <div class="dash reveal" aria-label="لوحة تاجر AdaaPay التجريبية">
+          <div class="dash-bar"><div class="dash-brand"><i></i>AdaaPay · MERCHANT</div><div class="dash-dots"><i></i><i></i><i></i></div></div>
+          <div class="dash-body">
+            <div class="dash-side">
+              <b>PAYMENTS</b>
+              <span class="on"><svg><use href="#i-chart"/></svg><span data-i18n="dashPayNavOverview">نظرة عامة</span></span>
+              <span><svg><use href="#i-card"/></svg><span data-i18n="dashPayNavPayments">المدفوعات</span></span>
+              <span><svg><use href="#i-layers"/></svg><span data-i18n="dashPayNavSettlements">التسويات</span></span>
+              <span><svg><use href="#i-users"/></svg><span data-i18n="dashPayNavCustomers">العملاء</span></span>
+              <span><svg><use href="#i-chart"/></svg><span data-i18n="dashPayNavReports">التقارير</span></span>
+            </div>
+            <div class="dash-main">
+              <div class="dash-title"><b data-i18n="dashPayTitle">أداء المدفوعات — هذا الأسبوع</b><small data-i18n="dashPayLive">نموذج توضيحي</small></div>
+              <div class="kpis">
+                <div class="kpi"><span data-i18n="kpiVolume">حجم المبيعات</span><b>1.84M</b><small>SDG</small></div>
+                <div class="kpi"><span data-i18n="kpiSuccess">نسبة النجاح</span><b>97.4%</b><small>+1.2%</small></div>
+                <div class="kpi"><span data-i18n="kpiTicket">متوسط الفاتورة</span><b>31K</b><small>SDG</small></div>
+              </div>
+              <div class="chart"><div class="chart-top"><span data-i18n="dashPayChart">المدفوعات — آخر 7 أيام</span><b>2,418</b></div><div class="bars"><i style="height:42%"></i><i style="height:58%"></i><i style="height:51%"></i><i style="height:76%"></i><i style="height:64%"></i><i style="height:88%"></i><i class="hot" style="height:100%"></i></div></div>
+              <table class="table tx-table">
+                <thead><tr><th data-i18n="dashPayColRef">المرجع</th><th data-i18n="dashPayColMethod">الطريقة</th><th data-i18n="dashPayColAmount">المبلغ</th><th data-i18n="dashPayColStatus">الحالة</th></tr></thead>
+                <tbody id="txBody">
+                  <tr><td><b>PAY-8841</b></td><td data-i18n="txMethodEbs">EBS · بنكك</td><td>48,000</td><td><span class="status" data-i18n="statusPaid">مدفوع</span></td></tr>
+                  <tr><td><b>PAY-8840</b></td><td data-i18n="txMethodBede">محفظة بيدي</td><td>12,500</td><td><span class="status" data-i18n="statusPaid">مدفوع</span></td></tr>
+                  <tr><td><b>PAY-8839</b></td><td data-i18n="txMethodQr">QR · كاشي</td><td>7,250</td><td><span class="status wait" data-i18n="statusPending">قيد المعالجة</span></td></tr>
+                  <tr><td><b>PAY-8838</b></td><td data-i18n="txMethodAgent">وكيل نقدي</td><td>25,000</td><td><span class="status" data-i18n="statusPaid">مدفوع</span></td></tr>
+                </tbody>
+              </table>
+              <p class="summary-note" style="color:#8b968e" data-i18n="dashPayNote">تتحدث القائمة مباشرة عند تجربة عملية دفع جديدة في الأعلى.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="developers">
+      <div class="container integration">
+        <div>
+          <span class="eyebrow" data-i18n="devEyebrow">FOR DEVELOPERS</span>
+          <h2 class="section-title" data-i18n="devTitle">تكامل واحد. كل قنوات الدفع.</h2>
+          <p class="section-subtitle" data-i18n="devText">واجهة REST واحدة لإنشاء عملية دفع ومتابعتها واستردادها، مع Webhooks موقعة وبيئة اختبار كاملة. لا تحتاج إلى تكامل منفصل لكل بنك أو محفظة.</p>
+          <ul class="checks">
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="df1Title">REST API واضح</strong><span data-i18n="df1Text">نقاط نهاية للمدفوعات والاسترداد والعملاء والتسويات، مع مفاتيح اختبار وإنتاج.</span></div></li>
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="df2Title">Webhooks موقعة</strong><span data-i18n="df2Text">إشعارات فورية لكل تغيير في الحالة، مع إعادة محاولة آمنة.</span></div></li>
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="df3Title">بيئة Sandbox</strong><span data-i18n="df3Text">اختبر EBS والمحافظ وQR والوكلاء دون أي حركة أموال.</span></div></li>
+            <li><svg><use href="#i-check"/></svg><div><strong data-i18n="df4Title">SDKs وإضافات</strong><span data-i18n="df4Text">مكوّنات جاهزة للمتاجر والتطبيقات، وإضافة WooCommerce وPOS.</span></div></li>
+          </ul>
+          <p class="section-subtitle" style="font-size:10px;margin-top:16px" data-i18n="devNote">الواجهة أدناه توضيحية لشكل التكامل المقترح، وليست واجهة إنتاجية منشورة.</p>
+        </div>
+        <div>
+          <div class="codeblock"><span class="c">// Create a payment — server to server</span>
+<span class="k">POST</span> /v1/payments
+<span class="c">Authorization: Bearer sk_live_…</span>
+
+{
+  <span class="s">"amount"</span>: <span class="n">25375</span>,
+  <span class="s">"currency"</span>: <span class="s">"SDG"</span>,
+  <span class="s">"method"</span>: <span class="s">"ebs"</span>,
+  <span class="s">"customer"</span>: { <span class="s">"phone"</span>: <span class="s">"0912345678"</span> },
+  <span class="s">"callback_url"</span>: <span class="s">"https://merchant.sd/hooks/pay"</span>
+}</div>
+          <div class="events"><span>payment.created</span><span>payment.succeeded</span><span>payment.failed</span><span>refund.created</span><span>settlement.paid</span></div>
+          <p class="section-subtitle" style="font-size:10px;margin-top:14px" data-i18n="devKeys">المفاتيح والبيانات التجريبية تُدار من بوابة المطورين. لا تضع مفاتيح الإنتاج في التطبيق أو المتصفح.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow" data-i18n="useEyebrow">USE CASES</span>
+        <h2 class="section-title" data-i18n="useTitle">أين يعمل AdaaPay؟</h2>
+        <p class="section-subtitle" data-i18n="useText">من دكان في السوق إلى متجر إلكتروني ومنصة نقل — نفس تجربة الدفع، ونفس لوحة التسوية.</p>
+        <div class="usecase-grid four">
+          <article class="usecase reveal"><svg><use href="#i-cart"/></svg><h3 data-i18n="use1Title">تجارة التجزئة</h3><p data-i18n="use1Text">كاشير أو QR في المتجر، مع إيصال رقمي ومطابقة يومية للوردية.</p></article>
+          <article class="usecase reveal"><svg><use href="#i-globe"/></svg><h3 data-i18n="use2Title">التجارة الإلكترونية</h3><p data-i18n="use2Text">صفحة دفع عربية، رابط دفع عبر واتساب، واسترداد مباشر من لوحة التاجر.</p></article>
+          <article class="usecase reveal"><svg><use href="#i-bus"/></svg><h3 data-i18n="use3Title">النقل والسفر</h3><p data-i18n="use3Text">دفع تذاكر الباصات والرحلات والفنادق مع تذكرة QR — عبر AdaaTravel أو نظامك.</p></article>
+          <article class="usecase reveal"><svg><use href="#i-bolt"/></svg><h3 data-i18n="use4Title">الفواتير والخدمات</h3><p data-i18n="use4Text">كهرباء واتصالات واشتراكات، مع دفع أقساط وتذكير تلقائي للعميل.</p></article>
+        </div>
+        <p class="section-subtitle" style="font-size:10px;margin-top:20px;max-width:900px" data-i18n="useNote">هذه أمثلة على حالات الاستخدام المقترحة ضمن تصور المنتج، وليست قائمة خدمات متاحة اليوم.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="security">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="secEyebrow">SECURITY &amp; CONTROL</span>
+            <h2 class="section-title" data-i18n="secTitle">الأمان جزء من التصميم، لا إضافة لاحقة.</h2>
+            <p class="section-subtitle" data-i18n="secText">بيانات البطاقة لا تلمس خوادم التاجر، وكل عملية لها سجل ومرجع. الضوابط التالية تمثل نموذج التصميم المستهدف عند الربط بمزود مرخّص.</p>
+          </div>
+        </div>
+        <div class="grid-3">
+          <article class="card reveal"><div class="card-icon"><svg><use href="#i-card"/></svg></div><h3 data-i18n="sec1Title">تشفير وتوكنة</h3><p data-i18n="sec1Text">بيانات البطاقة تمر عبر قنوات مشفرة، وتُستبدل برمز (token) بدل تخزين الرقم الكامل.</p></article>
+          <article class="card reveal"><div class="card-icon"><svg><use href="#i-shield"/></svg></div><h3 data-i18n="sec2Title">OTP و3-D Secure</h3><p data-i18n="sec2Text">تحقق إضافي من العميل بحسب قناة الدفع وسياسة البنك المصدر.</p></article>
+          <article class="card reveal"><div class="card-icon"><svg><use href="#i-chart"/></svg></div><h3 data-i18n="sec3Title">مراقبة الاحتيال</h3><p data-i18n="sec3Text">حدود للمبلغ والتكرار، وقواعد اشتباه، ومراجعة يدوية للحالات الحساسة.</p></article>
+          <article class="card reveal"><div class="card-icon"><svg><use href="#i-layers"/></svg></div><h3 data-i18n="sec4Title">سجل وتسوية</h3><p data-i18n="sec4Text">مرجع فريد لكل عملية، وكشف مطابقة بين الأطراف، وحالة واضحة قابلة للتتبع.</p></article>
+          <article class="card reveal"><div class="card-icon"><svg><use href="#i-users"/></svg></div><h3 data-i18n="sec5Title">صلاحيات وسجل تدقيق</h3><p data-i18n="sec5Text">أدوار للتاجر والكاشير والمحاسب، مع سجل من نفّذ ماذا ومتى.</p></article>
+          <article class="card reveal"><div class="card-icon"><svg><use href="#i-cloud"/></svg></div><h3 data-i18n="sec6Title">مرونة عند الانقطاع</h3><p data-i18n="sec6Text">إعادة محاولة آمنة، ومسارات USSD أو وكيل عند ضعف الاتصال.</p></article>
+        </div>
+        <p class="section-subtitle" style="font-size:10px;margin-top:22px;max-width:920px" data-i18n="secNote">أي ادعاء توافق أمني أو ترخيص يجب أن يُثبت عند التنفيذ الفعلي مع البنك الشريك ومزود الدفع وبنك السودان المركزي. هذه الصفحة تصور منتج، وليست بيانًا تنظيميًا.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="payband reveal">
+          <div>
+            <span class="eyebrow" data-i18n="travelEyebrow">ADAAPAY + ADAATRAVEL</span>
+            <h2 data-i18n="travelTitle">تبيع سفرًا؟ اجعل الدفع أسهل جزء.</h2>
+            <p data-i18n="travelText">ادفع تذاكر الباصات والرحلات والفنادق عبر EBS أو المحفظة داخل AdaaTravel. نفس الحساب، نفس التسوية، وتذكرة QR تصل فور التأكيد.</p>
+            <div class="paybrands"><span data-i18n="travelBrand1">تذاكر باصات</span><span data-i18n="travelBrand2">رحلات داخلية</span><span data-i18n="travelBrand3">فنادق</span><span data-i18n="travelBrand4">برامج سياحية</span></div>
+          </div>
+          <a class="btn btn-primary" href="/travel/"><span data-i18n="travelLink">اكتشف AdaaTravel</span><svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="faq">
+      <div class="container">
+        <span class="eyebrow" data-i18n="faqEyebrow">QUESTIONS</span>
+        <h2 class="section-title" data-i18n="faqTitle">أسئلة قبل أن تتكامل.</h2>
+        <div class="faq">
+          <details><summary data-i18n="faq1Q">هل AdaaPay بديل عن EBS؟</summary><p data-i18n="faq1A">لا. AdaaPay طبقة تجربة وتنسيق فوق قنوات الدفع القائمة. بطاقات EBS وتطبيقات البنوك والمحافظ تبقى لدى مزوديها، ويتم الربط بها عبر اتفاقيات وتراخيص.</p></details>
+          <details><summary data-i18n="faq2Q">هل يعمل بدون إنترنت؟</summary><p data-i18n="faq2A">الواجهة مصممة للاتصال الضعيف: تحتفظ بالحالة وتعيد المحاولة. بعض القنوات مثل USSD أو الدفع لدى وكيل لا تحتاج إنترنت على الإطلاق.</p></details>
+          <details><summary data-i18n="faq3Q">ما الذي يحتاجه التاجر للبدء؟</summary><p data-i18n="faq3A">حساب تاجر، بيانات النشاط، وقناة تسوية. في التنفيذ الفعلي تُضاف اتفاقية المزود واعتماد البنك المركزي بحسب النشاط.</p></details>
+          <details><summary data-i18n="faq4Q">هل يمكن ربطه بـ AdaaERP؟</summary><p data-i18n="faq4A">نعم. المدفوعات والتسويات والفواتير تتحرك بين AdaaPay ومالية AdaaERP، مع ملف عميل موحد وتقارير في مكان واحد.</p></details>
+          <details><summary data-i18n="faq5Q">هل هذه الصفحة تعالج أموالًا حقيقية؟</summary><p data-i18n="faq5A">لا. كل النماذج هنا تجريبية ولا تُرسل بيانات ولا تُخصم مبالغ. الغرض عرض تجربة المنتج ومسار التكامل.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <div class="cta-copy">
+            <span class="eyebrow" data-i18n="ctaEyebrow">LET’S BUILD PAYMENTS FOR SUDAN</span>
+            <h2 data-i18n="ctaTitle">جاهز تضيف الدفع إلى منتجك؟</h2>
+            <p data-i18n="ctaText">سواء كنت متجرًا أو تطبيقًا أو شركة نقل، يساعدك فريق SmartTeam على تحديد القنوات والنطاق والتكامل، وربط AdaaPay بمنظومة أداء.</p>
+          </div>
+          <a class="btn btn-primary" href="https://smart.sd/" target="_blank" rel="noopener"><span data-i18n="ctaButton">تحدث مع SmartTeam</span><svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-about">
+          <a class="footer-brand" href="/"><span class="brand-mark"><svg><use href="#i-mark"/></svg></span><span class="brand-name"><span data-i18n="brandWord">أداء</span><small data-i18n="brandBy">Adaa · by SmartTeam</small></span></a>
+          <p data-i18n="footerAboutPay">AdaaPay (SmartPay) — بوابة مدفوعات سودانية تجمع EBS والمحافظ وQR وUSSD ووكلاء النقد، ضمن منظومة أداء من SmartTeam.</p>
+          <span class="smartteam-mark">POWERED BY <span>SMARTTEAM</span></span>
+        </div>
+        <div class="footer-col"><h3 data-i18n="footerProducts">المنتجات</h3><a href="/">AdaaERP</a><a href="/travel/">AdaaTravel</a><a href="/" data-i18n="footerAllProducts">كل منتجات أداء</a></div>
+        <div class="footer-col"><h3 data-i18n="footerExplore">استكشف</h3><a href="#methods" data-i18n="navMethods">طرق الدفع</a><a href="#merchants" data-i18n="navMerchants">للتجار</a><a href="#developers" data-i18n="navDevelopers">للمطورين</a><a href="#faq">FAQ</a></div>
+        <div class="footer-col"><h3 data-i18n="footerCompany">الشركة</h3><a href="https://smart.sd/" target="_blank" rel="noopener">SmartTeam</a><a href="https://smart.sd/" target="_blank" rel="noopener">smart.sd</a><a href="#contact" data-i18n="footerRequest">طلب استشارة</a></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> AdaaPay — SmartTeam. <span data-i18n="rights">جميع الحقوق محفوظة.</span></span>
+        <span><a href="/llms.txt">llms.txt</a> · <a href="/sitemap.xml">sitemap.xml</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/adaa.js"></script>
+  <script>
+  window.PAGE_META = {
+    ar: {
+      title: "AdaaPay (SmartPay) | مدفوعات رقمية للسودان — EBS والمحافظ",
+      description: "AdaaPay (SmartPay) من SmartTeam — بوابة دفع سودانية تجمع بطاقات EBS وتطبيقات البنوك والمحافظ المحمولة ورموز QR وUSSD ووكلاء النقد، مع أدوات للتجار وواجهات للمطورين."
+    },
+    en: {
+      title: "AdaaPay (SmartPay) | Digital payments built for Sudan",
+      description: "AdaaPay by SmartTeam — a Sudanese payment gateway bringing together EBS cards, bank apps, mobile wallets, QR, USSD and cash agents, with merchant tools and developer APIs."
+    }
+  };
+
+  window.PAGE_I18N = {
+    ar: {
+      brandWord: "أداء", brandBy: "Adaa · by SmartTeam", rights: "جميع الحقوق محفوظة.",
+      navHome: "الرئيسية", navProduct: "المنتج", navMethods: "طرق الدفع", navMerchants: "للتجار", navDevelopers: "للمطورين", navCta: "اطلب عرضًا",
+      heroEyebrow: "ADAAPAY · SMARTPAY FOR SUDAN",
+      heroTitle: "مدفوعات رقمية<br><span>مصممة لواقع السودان.</span>",
+      heroText: "بوابة دفع واحدة تجمع بطاقات EBS وتطبيقات البنوك والمحافظ المحمولة ورموز QR وUSSD ووكلاء النقد. تجربة checkout عربية تعمل على الهاتف، ومصممة للاتصال المتقطع.",
+      heroPrimary: "جرّب الدفع الآن", heroSecondary: "تكامل للمطورين",
+      heroNote: "AdaaPay / SmartPay · ضمن منظومة أداء من SmartTeam",
+      floatPaid: "تم الدفع", floatInstant: "تأكيد فوري", floatSecure: "مشفّر",
+      heroBalanceLabel: "رصيد المحفظة", heroBalanceSub: "متاح للسحب والدفع",
+      heroMerchant: "متجر النيل", heroMerchantSub: "الخرطوم · دفع آمن",
+      heroQuick: "اختصارات", heroQuick1: "تحويل", heroQuick1Sub: "إلى محفظة أو بنك",
+      heroQuick2: "فاتورة", heroQuick2Sub: "كهرباء · اتصالات", heroQuick3: "رمز QR", heroQuick3Sub: "امسح وادفع",
+      heroPhoneCta: "جرّب عملية دفع", phoneDemoNote: "واجهة تجريبية",
+      heroCaption: "محفظة واحدة. كل الطرق.", heroCaptionSub: "EBS · محافظ · QR · وكلاء",
+      trustCaption: "مبنية على قنوات الدفع المستخدمة فعليًا في السودان",
+      trust1: "EBS والمحافظ المحلية", trust2: "أمان ومعايير PCI-DSS", trust3: "تعمل مع اتصال متقطع", trust4: "عربي وإنجليزي",
+      methodsEyebrow: "ONE CHECKOUT · EVERY RAIL", methodsTitle: "كل طرق الدفع التي يستخدمها السودانيون.",
+      methodsText: "لا تجبر عميلك على طريقة واحدة. اختر المسار الأنسب لكل عملية، مع تسوية موحدة وتقارير واحدة.",
+      methodsLink: "جرّب الدفع", methodPopular: "الأكثر استخدامًا", methodFast: "سريع", methodNew: "للتجار",
+      method1Title: "بطاقات EBS وتطبيقات البنوك", method1Text: "بطاقات ATM وتحويلات BBAN من تطبيقات البنوك السودانية، عبر الشبكة الوطنية EBS.",
+      method2Title: "المحافظ المحمولة", method2Text: "محافظ شركات الاتصالات والمزودين المستقلين، لعملاء لا يملكون حسابًا بنكيًا.",
+      method3Title: "رموز QR", method3Text: "امسح وادفع من تطبيق البنك أو المحفظة، أو اعرض رمزك ليتم الدفع لك.",
+      method4Title: "USSD والهواتف العادية", method4Text: "ادفع من هاتف بسيط بدون إنترنت — مناسب للمناطق ذات التغطية المحدودة.",
+      method5Title: "وكلاء النقد", method5Text: "Cash-in وCash-out عبر شبكة وكلاء محلية، مع إيصال رقمي وتحديث فوري للرصيد.",
+      method6Title: "روابط الدفع والفواتير", method6Text: "أرسل رابطًا أو فاتورة عبر واتساب أو SMS أو البريد، وتابع السداد من لوحة واحدة.",
+      chipAgents: "شبكة وكلاء",
+      methodsNote: "توفر كل قناة يعتمد على اتفاقيات المزودين وتراخيص البنك المركزي السوداني. هذه الصفحة عرض تجريبي لتصور المنتج، وليست عرضًا لخدمة مرخصة.",
+      demoEyebrow: "CHECKOUT DEMO", demoTitle: "جرّب الدفع كما سيحدث فعلًا.",
+      demoText: "أدخل مبلغًا، اختر EBS أو محفظة أو QR أو وكيلًا نقديًا، ثم تابع الحالة على الهاتف. واجهة تجريبية كاملة لا تُنفذ أي خصم حقيقي.",
+      demoLink: "كل طرق الدفع", demoBadge: "بيئة تجريبية",
+      payPanelTitle: "جرّب عملية دفع", payPanelSub: "هذه محاكاة لواجهة التاجر. لن تُرسل بيانات ولن يُخصم أي مبلغ.",
+      amountLabel: "المبلغ", payMethodLabel: "طريقة الدفع",
+      methodEbs: "بطاقة EBS أو تطبيق بنك", methodEbsSub: "بنكك · فوري · أوكاش",
+      methodWallet: "محفظة محمولة", methodWalletSub: "بيدي · MoMo · كاشي · برافو",
+      methodQr: "رمز QR", methodQrSub: "امسح من تطبيق البنك أو المحفظة",
+      methodAgent: "وكيل نقدي", methodAgentSub: "ادفع نقدًا واستلم إيصالًا",
+      fieldPhone: "رقم الهاتف", fieldOrder: "مرجع الطلب",
+      feeLabel: "رسوم المنصة (1.5%)", totalLabel: "الإجمالي", payButton: "ادفع الآن",
+      demoLegal: "واجهة تجريبية بالكامل. لا تُنفذ أي عملية دفع ولا تُرسل بيانات إلى أي مزود.",
+      processingTitle: "جارٍ معالجة الدفع…", processingSub: "نتحقق من العملية مع المزود. لا تغلق الصفحة.",
+      successTitle: "تم استلام الدفع", successSub: "إيصال تجريبي. في الإنتاج يصلك تأكيد فوري ورسالة SMS، ويُسوّى المبلغ مع التاجر.",
+      receiptRef: "مرجع العملية", receiptAmount: "المبلغ", receiptMethod: "طريقة الدفع", receiptPhone: "الهاتف", newPayment: "عملية جديدة",
+      phoneMerchantSub: "الخرطوم · طلب NS-2041", phoneFeeLine: "رسوم المنصة", phonePayCta: "ادفع الآن",
+      phoneDemoNote: "واجهة تجريبية — لا خصم فعلي",
+      phoneProcessingTitle: "جارٍ التأكيد", phoneProcessingText: "نتحقق من العملية عبر قناة الدفع المختارة…",
+      phoneSuccessTitle: "تم الدفع", phoneSuccessText: "محاكاة ناجحة — لا حركة أموال.",
+      demoCaption: "التاجر والمحفظة في شاشة واحدة", demoCaptionSub: "EBS · محفظة · QR · وكيل",
+      toastAmount: "أدخل مبلغًا صحيحًا لا يقل عن 1,000 SDG.", toastPhone: "أدخل رقم هاتف صحيحًا للمتابعة.", toastPaid: "تمت العملية التجريبية — راجع الإيصال.",
+      merchEyebrow: "FOR MERCHANTS", merchTitle: "استقبل المدفوعات. وأدِر كل شيء من لوحة واحدة.",
+      merchText: "AdaaPay لا يقتصر على صفحة الدفع. يمنح المتاجر والمطاعم والصيدليات وشركات الخدمات أدوات لإدارة الطلبات والتسويات والمبالغ المستردة والتقارير، مع ربط مباشر بمالية أداء ERP.",
+      mf1Title: "روابط وفواتير دفع", mf1Text: "أنشئ رابطًا أو فاتورة وأرسلها عبر واتساب أو SMS أو البريد.",
+      mf2Title: "تسوية موحدة", mf2Text: "كل القنوات في كشف واحد: EBS والمحافظ والوكلاء وQR.",
+      mf3Title: "المبالغ المستردة", mf3Text: "استرداد كامل أو جزئي مع سبب وسجل تدقيق واضح.",
+      mf4Title: "فروع وموظفون", mf4Text: "حساب لكل فرع أو كاشير، بصلاحيات وحدود تشغيلية.",
+      mf5Title: "تقارير ومدفوعات", mf5Text: "تابع الحجم ونسبة النجاح ومتوسط الفاتورة ومصادر الدخل.",
+      mf6Title: "تكامل POS والتطبيقات", mf6Text: "اربط الكاشير أو المتجر أو تطبيقك عبر API وWebhooks.",
+      dashPayNavOverview: "نظرة عامة", dashPayNavPayments: "المدفوعات", dashPayNavSettlements: "التسويات", dashPayNavCustomers: "العملاء", dashPayNavReports: "التقارير",
+      dashPayTitle: "أداء المدفوعات — هذا الأسبوع", dashPayLive: "نموذج توضيحي",
+      kpiVolume: "حجم المبيعات", kpiSuccess: "نسبة النجاح", kpiTicket: "متوسط الفاتورة", dashPayChart: "المدفوعات — آخر 7 أيام",
+      dashPayColRef: "المرجع", dashPayColMethod: "الطريقة", dashPayColAmount: "المبلغ", dashPayColStatus: "الحالة",
+      txMethodEbs: "EBS · بنكك", txMethodBede: "محفظة بيدي", txMethodQr: "QR · كاشي", txMethodAgent: "وكيل نقدي",
+      statusPaid: "مدفوع", statusPending: "قيد المعالجة",
+      dashPayNote: "تتحدث القائمة مباشرة عند تجربة عملية دفع جديدة في الأعلى.",
+      txShortEbs: "EBS", txShortWallet: "محفظة", txShortQr: "QR", txShortAgent: "وكيل",
+      devEyebrow: "FOR DEVELOPERS", devTitle: "تكامل واحد. كل قنوات الدفع.",
+      devText: "واجهة REST واحدة لإنشاء عملية دفع ومتابعتها واستردادها، مع Webhooks موقعة وبيئة اختبار كاملة. لا تحتاج إلى تكامل منفصل لكل بنك أو محفظة.",
+      df1Title: "REST API واضح", df1Text: "نقاط نهاية للمدفوعات والاسترداد والعملاء والتسويات، مع مفاتيح اختبار وإنتاج.",
+      df2Title: "Webhooks موقعة", df2Text: "إشعارات فورية لكل تغيير في الحالة، مع إعادة محاولة آمنة.",
+      df3Title: "بيئة Sandbox", df3Text: "اختبر EBS والمحافظ وQR والوكلاء دون أي حركة أموال.",
+      df4Title: "SDKs وإضافات", df4Text: "مكوّنات جاهزة للمتاجر والتطبيقات، وإضافة WooCommerce وPOS.",
+      devNote: "الواجهة أدناه توضيحية لشكل التكامل المقترح، وليست واجهة إنتاجية منشورة.",
+      devKeys: "المفاتيح والبيانات التجريبية تُدار من بوابة المطورين. لا تضع مفاتيح الإنتاج في التطبيق أو المتصفح.",
+      useEyebrow: "USE CASES", useTitle: "أين يعمل AdaaPay؟",
+      useText: "من دكان في السوق إلى متجر إلكتروني ومنصة نقل — نفس تجربة الدفع، ونفس لوحة التسوية.",
+      use1Title: "تجارة التجزئة", use1Text: "كاشير أو QR في المتجر، مع إيصال رقمي ومطابقة يومية للوردية.",
+      use2Title: "التجارة الإلكترونية", use2Text: "صفحة دفع عربية، رابط دفع عبر واتساب، واسترداد مباشر من لوحة التاجر.",
+      use3Title: "النقل والسفر", use3Text: "دفع تذاكر الباصات والرحلات والفنادق مع تذكرة QR — عبر AdaaTravel أو نظامك.",
+      use4Title: "الفواتير والخدمات", use4Text: "كهرباء واتصالات واشتراكات، مع دفع أقساط وتذكير تلقائي للعميل.",
+      useNote: "هذه أمثلة على حالات الاستخدام المقترحة ضمن تصور المنتج، وليست قائمة خدمات متاحة اليوم.",
+      secEyebrow: "SECURITY & CONTROL", secTitle: "الأمان جزء من التصميم، لا إضافة لاحقة.",
+      secText: "بيانات البطاقة لا تلمس خوادم التاجر، وكل عملية لها سجل ومرجع. الضوابط التالية تمثل نموذج التصميم المستهدف عند الربط بمزود مرخّص.",
+      sec1Title: "تشفير وتوكنة", sec1Text: "بيانات البطاقة تمر عبر قنوات مشفرة، وتُستبدل برمز (token) بدل تخزين الرقم الكامل.",
+      sec2Title: "OTP و3-D Secure", sec2Text: "تحقق إضافي من العميل بحسب قناة الدفع وسياسة البنك المصدر.",
+      sec3Title: "مراقبة الاحتيال", sec3Text: "حدود للمبلغ والتكرار، وقواعد اشتباه، ومراجعة يدوية للحالات الحساسة.",
+      sec4Title: "سجل وتسوية", sec4Text: "مرجع فريد لكل عملية، وكشف مطابقة بين الأطراف، وحالة واضحة قابلة للتتبع.",
+      sec5Title: "صلاحيات وسجل تدقيق", sec5Text: "أدوار للتاجر والكاشير والمحاسب، مع سجل من نفّذ ماذا ومتى.",
+      sec6Title: "مرونة عند الانقطاع", sec6Text: "إعادة محاولة آمنة، ومسارات USSD أو وكيل عند ضعف الاتصال.",
+      secNote: "أي ادعاء توافق أمني أو ترخيص يجب أن يُثبت عند التنفيذ الفعلي مع البنك الشريك ومزود الدفع وبنك السودان المركزي. هذه الصفحة تصور منتج، وليست بيانًا تنظيميًا.",
+      travelEyebrow: "ADAAPAY + ADAATRAVEL", travelTitle: "تبيع سفرًا؟ اجعل الدفع أسهل جزء.",
+      travelText: "ادفع تذاكر الباصات والرحلات والفنادق عبر EBS أو المحفظة داخل AdaaTravel. نفس الحساب، نفس التسوية، وتذكرة QR تصل فور التأكيد.",
+      travelBrand1: "تذاكر باصات", travelBrand2: "رحلات داخلية", travelBrand3: "فنادق", travelBrand4: "برامج سياحية", travelLink: "اكتشف AdaaTravel",
+      faqEyebrow: "QUESTIONS", faqTitle: "أسئلة قبل أن تتكامل.",
+      faq1Q: "هل AdaaPay بديل عن EBS؟", faq1A: "لا. AdaaPay طبقة تجربة وتنسيق فوق قنوات الدفع القائمة. بطاقات EBS وتطبيقات البنوك والمحافظ تبقى لدى مزوديها، ويتم الربط بها عبر اتفاقيات وتراخيص.",
+      faq2Q: "هل يعمل بدون إنترنت؟", faq2A: "الواجهة مصممة للاتصال الضعيف: تحتفظ بالحالة وتعيد المحاولة. بعض القنوات مثل USSD أو الدفع لدى وكيل لا تحتاج إنترنت على الإطلاق.",
+      faq3Q: "ما الذي يحتاجه التاجر للبدء؟", faq3A: "حساب تاجر، بيانات النشاط، وقناة تسوية. في التنفيذ الفعلي تُضاف اتفاقية المزود واعتماد البنك المركزي بحسب النشاط.",
+      faq4Q: "هل يمكن ربطه بـ AdaaERP؟", faq4A: "نعم. المدفوعات والتسويات والفواتير تتحرك بين AdaaPay ومالية AdaaERP، مع ملف عميل موحد وتقارير في مكان واحد.",
+      faq5Q: "هل هذه الصفحة تعالج أموالًا حقيقية؟", faq5A: "لا. كل النماذج هنا تجريبية ولا تُرسل بيانات ولا تُخصم مبالغ. الغرض عرض تجربة المنتج ومسار التكامل.",
+      ctaEyebrow: "LET’S BUILD PAYMENTS FOR SUDAN", ctaTitle: "جاهز تضيف الدفع إلى منتجك؟",
+      ctaText: "سواء كنت متجرًا أو تطبيقًا أو شركة نقل، يساعدك فريق SmartTeam على تحديد القنوات والنطاق والتكامل، وربط AdaaPay بمنظومة أداء.",
+      ctaButton: "تحدث مع SmartTeam",
+      footerAboutPay: "AdaaPay (SmartPay) — بوابة مدفوعات سودانية تجمع EBS والمحافظ وQR وUSSD ووكلاء النقد، ضمن منظومة أداء من SmartTeam.",
+      footerProducts: "المنتجات", footerExplore: "استكشف", footerCompany: "الشركة", footerRequest: "طلب استشارة", footerAllProducts: "كل منتجات أداء"
+    },
+    en: {
+      brandWord: "Adaa", brandBy: "Adaa · by SmartTeam", rights: "All rights reserved.",
+      navHome: "Home", navProduct: "Product", navMethods: "Payment methods", navMerchants: "For merchants", navDevelopers: "Developers", navCta: "Request a demo",
+      heroEyebrow: "ADAAPAY · SMARTPAY FOR SUDAN",
+      heroTitle: "Digital payments<br><span>built for Sudan.</span>",
+      heroText: "One checkout for EBS cards, bank apps, mobile wallets, QR, USSD and cash agents. An Arabic-first payment experience that works on a phone — and on a weak connection.",
+      heroPrimary: "Try the checkout", heroSecondary: "Developer integration",
+      heroNote: "AdaaPay / SmartPay · part of the Adaa suite by SmartTeam",
+      floatPaid: "Paid", floatInstant: "Instant confirmation", floatSecure: "Encrypted",
+      heroBalanceLabel: "Wallet balance", heroBalanceSub: "Available to withdraw and pay",
+      heroMerchant: "Al-Nile Store", heroMerchantSub: "Khartoum · secure payment",
+      heroQuick: "Shortcuts", heroQuick1: "Transfer", heroQuick1Sub: "To a wallet or bank",
+      heroQuick2: "Bill", heroQuick2Sub: "Power · telecom", heroQuick3: "QR code", heroQuick3Sub: "Scan and pay",
+      heroPhoneCta: "Try a payment", phoneDemoNote: "Concept interface",
+      heroCaption: "One wallet. Every rail.", heroCaptionSub: "EBS · wallets · QR · agents",
+      trustCaption: "Built on the payment channels Sudan actually uses",
+      trust1: "EBS and local wallets", trust2: "Security and PCI-DSS standards", trust3: "Works on weak connections", trust4: "Arabic and English",
+      methodsEyebrow: "ONE CHECKOUT · EVERY RAIL", methodsTitle: "Every payment method Sudanese customers use.",
+      methodsText: "Don’t force your customer into one rail. Route each payment to the best channel, with one settlement file and one set of reports.",
+      methodsLink: "Try the checkout", methodPopular: "Most used", methodFast: "Fast", methodNew: "For merchants",
+      method1Title: "EBS cards and bank apps", method1Text: "ATM cards and BBAN transfers from Sudanese bank apps, over the national EBS switch.",
+      method2Title: "Mobile wallets", method2Text: "Telecom and independent provider wallets, for customers without a bank account.",
+      method3Title: "QR codes", method3Text: "Scan and pay from a bank or wallet app — or show your own code to get paid.",
+      method4Title: "USSD and feature phones", method4Text: "Pay from a basic phone without internet — built for areas with limited coverage.",
+      method5Title: "Cash agents", method5Text: "Cash-in and cash-out through a local agent network, with a digital receipt and an instant balance update.",
+      method6Title: "Payment links and invoices", method6Text: "Send a link or invoice over WhatsApp, SMS or email, and track payment from one dashboard.",
+      chipAgents: "Agent network",
+      methodsNote: "Channel availability depends on provider agreements and Central Bank of Sudan licensing. This page is a concept demo for the product, not an offer of a licensed service.",
+      demoEyebrow: "CHECKOUT DEMO", demoTitle: "Try a payment the way it will actually happen.",
+      demoText: "Enter an amount, choose EBS, wallet, QR or a cash agent, then follow the state on the phone. A complete demo that never charges anything.",
+      demoLink: "All payment methods", demoBadge: "Concept environment",
+      payPanelTitle: "Try a payment", payPanelSub: "This simulates a merchant checkout. No data is sent and no money is charged.",
+      amountLabel: "Amount", payMethodLabel: "Payment method",
+      methodEbs: "EBS card or bank app", methodEbsSub: "Bankak · Fawry · Ocash",
+      methodWallet: "Mobile wallet", methodWalletSub: "Bede · MoMo · Cashi · Bravo",
+      methodQr: "QR code", methodQrSub: "Scan from a bank or wallet app",
+      methodAgent: "Cash agent", methodAgentSub: "Pay cash and get a receipt",
+      fieldPhone: "Phone number", fieldOrder: "Order reference",
+      feeLabel: "Platform fee (1.5%)", totalLabel: "Total", payButton: "Pay now",
+      demoLegal: "Fully simulated. No payment is processed and no data is sent to any provider.",
+      processingTitle: "Processing payment…", processingSub: "Confirming the transaction with the provider. Please keep this page open.",
+      successTitle: "Payment received", successSub: "Demo receipt. In production you get instant confirmation and an SMS, and the merchant is settled automatically.",
+      receiptRef: "Transaction reference", receiptAmount: "Amount", receiptMethod: "Payment method", receiptPhone: "Phone", newPayment: "New payment",
+      phoneMerchantSub: "Khartoum · order NS-2041", phoneFeeLine: "Platform fee", phonePayCta: "Pay now",
+      phoneDemoNote: "Concept interface — no real charge",
+      phoneProcessingTitle: "Confirming", phoneProcessingText: "Verifying the transaction on the selected channel…",
+      phoneSuccessTitle: "Paid", phoneSuccessText: "Successful simulation — no money moved.",
+      demoCaption: "Merchant and wallet on one screen", demoCaptionSub: "EBS · wallet · QR · agent",
+      toastAmount: "Enter a valid amount of at least SDG 1,000.", toastPhone: "Enter a valid phone number to continue.", toastPaid: "Demo payment completed — check the receipt.",
+      merchEyebrow: "FOR MERCHANTS", merchTitle: "Accept payments. Run everything from one dashboard.",
+      merchText: "AdaaPay is more than a checkout page. Shops, restaurants, pharmacies and service businesses get tools for orders, settlements, refunds and reports — connected to Adaa ERP finance.",
+      mf1Title: "Payment links and invoices", mf1Text: "Create a link or invoice and send it over WhatsApp, SMS or email.",
+      mf2Title: "Unified settlement", mf2Text: "Every channel in one statement: EBS, wallets, agents and QR.",
+      mf3Title: "Refunds", mf3Text: "Full or partial refunds with a reason and a clear audit trail.",
+      mf4Title: "Branches and staff", mf4Text: "An account for each branch or cashier, with roles and operating limits.",
+      mf5Title: "Reports and payouts", mf5Text: "Track volume, success rate, average ticket and revenue sources.",
+      mf6Title: "POS and app integration", mf6Text: "Connect your till, storefront or app through APIs and webhooks.",
+      dashPayNavOverview: "Overview", dashPayNavPayments: "Payments", dashPayNavSettlements: "Settlements", dashPayNavCustomers: "Customers", dashPayNavReports: "Reports",
+      dashPayTitle: "Payments performance — this week", dashPayLive: "Concept preview",
+      kpiVolume: "Sales volume", kpiSuccess: "Success rate", kpiTicket: "Average ticket", dashPayChart: "Payments — last 7 days",
+      dashPayColRef: "Reference", dashPayColMethod: "Method", dashPayColAmount: "Amount", dashPayColStatus: "Status",
+      txMethodEbs: "EBS · Bankak", txMethodBede: "Bede wallet", txMethodQr: "QR · Cashi", txMethodAgent: "Cash agent",
+      statusPaid: "Paid", statusPending: "Processing",
+      dashPayNote: "The list updates live when you try a new payment above.",
+      txShortEbs: "EBS", txShortWallet: "Wallet", txShortQr: "QR", txShortAgent: "Agent",
+      devEyebrow: "FOR DEVELOPERS", devTitle: "One integration. Every payment rail.",
+      devText: "A single REST API to create, track and refund payments, with signed webhooks and a full sandbox. No separate integration for every bank or wallet.",
+      df1Title: "A clear REST API", df1Text: "Endpoints for payments, refunds, customers and settlements, with test and live keys.",
+      df2Title: "Signed webhooks", df2Text: "Instant notifications for every state change, with safe retries.",
+      df3Title: "Sandbox environment", df3Text: "Test EBS, wallets, QR and agents without moving any money.",
+      df4Title: "SDKs and plugins", df4Text: "Ready-made components for stores and apps, plus WooCommerce and POS plugins.",
+      devNote: "The interface below illustrates the proposed integration shape; it is not a published production API.",
+      devKeys: "Keys and test data are managed from the developer portal. Never put live keys in an app or a browser.",
+      useEyebrow: "USE CASES", useTitle: "Where does AdaaPay work?",
+      useText: "From a shop in the market to an online store and a transport platform — the same checkout and the same settlement dashboard.",
+      use1Title: "Retail", use1Text: "A till or a QR at the shop, with a digital receipt and end-of-shift reconciliation.",
+      use2Title: "E-commerce", use2Text: "An Arabic checkout, a WhatsApp payment link, and refunds straight from the merchant dashboard.",
+      use3Title: "Transport and travel", use3Text: "Pay for bus tickets, trips and hotels with a QR ticket — through AdaaTravel or your own system.",
+      use4Title: "Bills and services", use4Text: "Power, telecom and subscriptions, with instalments and automatic customer reminders.",
+      useNote: "These are proposed use cases within the product concept, not a list of services available today.",
+      secEyebrow: "SECURITY & CONTROL", secTitle: "Security is designed in, not added on.",
+      secText: "Card data never touches merchant servers, and every transaction has a reference and a record. These controls describe the target design when connected to a licensed provider.",
+      sec1Title: "Encryption and tokenisation", sec1Text: "Card data travels over encrypted channels and is replaced by a token instead of storing the full number.",
+      sec2Title: "OTP and 3-D Secure", sec2Text: "Extra customer verification based on the payment channel and the issuing bank’s policy.",
+      sec3Title: "Fraud monitoring", sec3Text: "Amount and velocity limits, suspicion rules, and manual review for sensitive cases.",
+      sec4Title: "Ledger and reconciliation", sec4Text: "A unique reference per transaction, a matching statement across parties, and a traceable status.",
+      sec5Title: "Roles and audit trail", sec5Text: "Merchant, cashier and accountant roles, with a record of who did what and when.",
+      sec6Title: "Resilience when offline", sec6Text: "Safe retries, plus USSD or agent routes when connectivity is poor.",
+      secNote: "Any security compliance or licensing claim must be proven during actual implementation with the partner bank, payment provider and Central Bank of Sudan. This page is a product concept, not a regulatory statement.",
+      travelEyebrow: "ADAAPAY + ADAATRAVEL", travelTitle: "Selling travel? Make payment the easy part.",
+      travelText: "Pay for bus tickets, trips and hotels with EBS or a wallet inside AdaaTravel. Same account, same settlement, and a QR ticket the moment payment is confirmed.",
+      travelBrand1: "Bus tickets", travelBrand2: "Domestic trips", travelBrand3: "Hotels", travelBrand4: "Tours", travelLink: "Discover AdaaTravel",
+      faqEyebrow: "QUESTIONS", faqTitle: "Questions before you integrate.",
+      faq1Q: "Is AdaaPay a replacement for EBS?", faq1A: "No. AdaaPay is an experience and orchestration layer on top of existing rails. EBS cards, bank apps and wallets stay with their providers and are connected through agreements and licensing.",
+      faq2Q: "Does it work without internet?", faq2A: "The interface is designed for weak connections: it keeps state and retries. Some channels, such as USSD or paying at an agent, need no internet at all.",
+      faq3Q: "What does a merchant need to start?", faq3A: "A merchant account, business details and a settlement channel. Live rollout adds the provider agreement and central bank approval required for the activity.",
+      faq4Q: "Can it connect to AdaaERP?", faq4A: "Yes. Payments, settlements and invoices move between AdaaPay and AdaaERP finance, with one customer profile and reports in one place.",
+      faq5Q: "Does this page process real money?", faq5A: "No. Every model here is a demo; no data is sent and no money is charged. The goal is to show the product experience and integration path.",
+      ctaEyebrow: "LET’S BUILD PAYMENTS FOR SUDAN", ctaTitle: "Ready to add payments to your product?",
+      ctaText: "Whether you run a shop, an app or a transport company, SmartTeam helps you choose the rails, scope the build and connect AdaaPay to the Adaa suite.",
+      ctaButton: "Talk to SmartTeam",
+      footerAboutPay: "AdaaPay (SmartPay) — a Sudanese payment gateway bringing together EBS, wallets, QR, USSD and cash agents, part of the Adaa suite by SmartTeam.",
+      footerProducts: "Products", footerExplore: "Explore", footerCompany: "Company", footerRequest: "Request a consultation", footerAllProducts: "All Adaa products"
+    }
+  };
+  </script>
+
+  <script>
+  (function () {
+    "use strict";
+
+    var FEE_RATE = 0.015;
+    var METHODS = { ebs: "methodEbs", wallet: "methodWallet", qr: "methodQr", agent: "methodAgent" };
+    var SHORT = { ebs: "txShortEbs", wallet: "txShortWallet", qr: "txShortQr", agent: "txShortAgent" };
+
+    var state = { amount: 25000, method: "ebs", processing: false, ref: "", timer: null };
+
+    var form = document.getElementById("payForm");
+    var amountInput = document.getElementById("payAmount");
+    var phoneInput = document.getElementById("payPhone");
+    var stepForm = document.getElementById("payStepForm");
+    var stepProcessing = document.getElementById("payStepProcessing");
+    var stepSuccess = document.getElementById("payStepSuccess");
+    var phoneForm = document.getElementById("phonePayStep");
+    var phoneProcessing = document.getElementById("phoneProcessing");
+    var phoneSuccess = document.getElementById("phoneSuccess");
+    var txBody = document.getElementById("txBody");
+
+    function t(key) { return ADAA.t(key); }
+    function fmt(value) { return ADAA.fmt(value); }
+    function feeFor(amount) { return Math.round(amount * FEE_RATE); }
+    function totalFor(amount) { return amount + feeFor(amount); }
+
+    function maskPhone(value) {
+      var digits = String(value).replace(/\D/g, "");
+      if (digits.length < 7) return value;
+      return digits.slice(0, 4) + " *** " + digits.slice(-3);
+    }
+
+    function renderAmount() {
+      var amount = Number(amountInput.value);
+      if (!isFinite(amount) || amount < 0) amount = 0;
+      state.amount = amount;
+      var fee = feeFor(amount);
+      var total = totalFor(amount);
+      document.getElementById("feeBase").textContent = fmt(amount) + " SDG";
+      document.getElementById("feeValue").textContent = fmt(fee) + " SDG";
+      document.getElementById("payTotal").textContent = fmt(total) + " SDG";
+      document.getElementById("phoneAmount").textContent = fmt(total);
+      document.getElementById("phoneFeeValue").textContent = fmt(fee) + " SDG · 1.5%";
+      Array.prototype.forEach.call(document.querySelectorAll(".preset"), function (preset) {
+        preset.classList.toggle("on", Number(preset.dataset.amount) === amount);
+      });
+    }
+
+    function renderMethod() {
+      var key = METHODS[state.method];
+      document.getElementById("phoneMethodName").textContent = t(key);
+      document.getElementById("phoneMethodSub").textContent = t(key + "Sub");
+      Array.prototype.forEach.call(document.querySelectorAll(".pay-grid .pay-option"), function (option) {
+        option.classList.toggle("selected", option.dataset.method === state.method);
+      });
+    }
+
+    function setStep(step) {
+      stepForm.hidden = step !== "form";
+      stepProcessing.hidden = step !== "processing";
+      stepSuccess.hidden = step !== "success";
+      phoneForm.hidden = step !== "form";
+      phoneProcessing.hidden = step !== "processing";
+      phoneSuccess.hidden = step !== "success";
+    }
+
+    function fillReceipt() {
+      var total = totalFor(state.amount);
+      var method = t(METHODS[state.method]);
+      var phone = maskPhone(phoneInput.value);
+      document.getElementById("payReceiptRef").textContent = state.ref;
+      document.getElementById("payReceiptAmount").textContent = fmt(total) + " SDG";
+      document.getElementById("payReceiptMethod").textContent = method;
+      document.getElementById("payReceiptPhone").textContent = phone;
+      document.getElementById("phoneReceiptRef").textContent = state.ref;
+      document.getElementById("phoneReceiptAmount").textContent = fmt(total);
+      document.getElementById("phoneReceiptMethod").textContent = method;
+    }
+
+    function addTransaction() {
+      var row = document.createElement("tr");
+      row.innerHTML = "<td><b>" + state.ref + "</b></td><td>" + t(SHORT[state.method]) + "</td><td>" +
+        fmt(totalFor(state.amount)) + "</td><td><span class='status'>" + t("statusPaid") + "</span></td>";
+      txBody.insertBefore(row, txBody.firstChild);
+      while (txBody.children.length > 5) txBody.removeChild(txBody.lastChild);
+    }
+
+    function confirmPayment() {
+      if (state.processing) return;
+      var amount = Number(amountInput.value);
+      if (!isFinite(amount) || amount < 1000) {
+        ADAA.toast(t("toastAmount"));
+        amountInput.focus();
+        return;
+      }
+      if (String(phoneInput.value).replace(/\D/g, "").length < 9) {
+        ADAA.toast(t("toastPhone"));
+        phoneInput.focus();
+        return;
+      }
+      state.amount = amount;
+      state.processing = true;
+      state.ref = "PAY-" + String(Math.floor(100000 + Math.random() * 900000));
+      renderAmount();
+      setStep("processing");
+      clearTimeout(state.timer);
+      state.timer = setTimeout(function () {
+        state.processing = false;
+        fillReceipt();
+        setStep("success");
+        addTransaction();
+        ADAA.toast(t("toastPaid"));
+      }, 1500);
+    }
+
+    Array.prototype.forEach.call(document.querySelectorAll(".preset"), function (preset) {
+      preset.addEventListener("click", function () {
+        amountInput.value = preset.dataset.amount;
+        renderAmount();
+      });
+    });
+
+    Array.prototype.forEach.call(document.querySelectorAll(".pay-grid .pay-option"), function (option) {
+      option.addEventListener("click", function () {
+        state.method = option.dataset.method;
+        renderMethod();
+      });
+    });
+
+    amountInput.addEventListener("input", renderAmount);
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      confirmPayment();
+    });
+
+    document.getElementById("phonePayBtn").addEventListener("click", function () {
+      if (form.requestSubmit) form.requestSubmit();
+      else document.getElementById("payBtn").click();
+    });
+
+    document.getElementById("newPayment").addEventListener("click", function () {
+      clearTimeout(state.timer);
+      state.processing = false;
+      setStep("form");
+      amountInput.focus();
+    });
+
+    ADAA.onChange(function () {
+      renderAmount();
+      renderMethod();
+      if (!phoneSuccess.hidden) fillReceipt();
+    });
+
+    renderAmount();
+    renderMethod();
+  })();
+  </script>
+</body>
+</html>
+
